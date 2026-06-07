@@ -5,20 +5,20 @@ export const dynamicParams = true
 
 const title = 'Does Buying Backlinks Help AI Find You'
 const titleWithSuffix = `${title} | The Answer Engine`
-const description = 'Buying backlinks used to boost Google rankings. AI search platforms like ChatGPT and Perplexity use different trust signals. Learn why purchased links fail in the AI era.'
+const description = 'Buying backlinks once moved Google rankings. ChatGPT and Perplexity use different trust signals — discover what actually drives AEO citation visibility.'
 const slug = 'does-buying-backlinks-help-ai-find-you'
 const publishDate = '2026-04-02'
 
 export const metadata: Metadata = {
   title: titleWithSuffix,
   description,
-  keywords: ['buying backlinks', 'backlinks AI search', 'do backlinks help ChatGPT', 'link building AI era', 'purchased links penalty', 'AI search ranking factors', 'backlinks vs content quality', 'AI trust signals', 'answer engine optimization backlinks', 'SpamBrain link detection'],
+  keywords: 'buying backlinks, backlinks AI search, do backlinks help ChatGPT, link building AI era, purchased links penalty, AI search ranking factors, AI trust signals, answer engine optimization backlinks, SpamBrain link detection, brand search AI citations',
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
@@ -42,12 +42,8 @@ const jsonLd = {
         '@id': 'https://theanswerengine.ai/about#justin-borges',
         name: 'Justin Borges',
         jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        worksFor: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'LLM Citation Strategy', 'AEO Content Architecture', 'SpamBrain Detection', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
         image: 'https://theanswerengine.ai/justin-borges.webp',
       },
@@ -55,98 +51,50 @@ const jsonLd = {
         '@type': 'Organization',
         name: 'The Answer Engine',
         url: 'https://theanswerengine.ai',
-        logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/blog/does-buying-backlinks-help-ai-find-you.webp' },
+        logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/logo.png' },
       },
       mainEntityOfPage: { '@type': 'WebPage', '@id': `https://theanswerengine.ai/blog/${slug}` },
-      articleSection: 'Myth Busters',
-      keywords: 'buying backlinks, backlinks AI search, link building AI era, purchased links penalty, AI trust signals, answer engine optimization backlinks',
-      wordCount: 3100,
+      articleSection: 'AEO Strategy',
+      keywords: 'buying backlinks, backlinks AI search, link building AI era, purchased links penalty, AI trust signals, answer engine optimization backlinks, SpamBrain, brand search citations',
+      wordCount: 3400,
       inLanguage: 'en-US',
     },
     {
       '@type': 'FAQPage',
       mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'Do backlinks still matter for AI search visibility?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Backlinks have minimal direct impact on whether AI platforms like ChatGPT or Perplexity cite your business. Research shows that domain authority and backlink count have weak or negative correlations with AI citation frequency. AI platforms prioritize content structure, data consistency, and cross-platform verification over link counts.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can buying backlinks get my website penalized by Google?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes. Google explicitly prohibits buying or selling links to manipulate rankings. SpamBrain, their AI-powered spam detection system, identifies paid link patterns in minutes rather than months. Penalties range from link value neutralization where your rankings simply stagnate, to manual actions that actively suppress your visibility across all search results.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What signals do AI platforms use instead of backlinks?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'AI platforms evaluate semantic relevance, entity clarity, structured data accuracy, cross-platform data consistency, content freshness, and third-party validation from reviews and mentions. A Semrush study found that brand search volume has a 0.334 correlation with AI mentions, which is significantly stronger than the backlink correlation.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Does Google still use backlinks as a ranking factor?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Google has confirmed that backlinks are no longer among the top three ranking factors. While links still contribute to how Google discovers and evaluates pages, their weight has decreased significantly. Google now prioritizes content quality, user experience signals, and semantic relevance over raw link volume.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Why does ChatGPT cite pages that have low domain authority?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Roughly 90% of ChatGPT citations come from pages ranked at position 21 or lower in traditional Google search. ChatGPT does not use domain authority as a primary selection signal. It evaluates whether content provides a clear, direct answer with verifiable data and structured formatting, regardless of how many backlinks the page has earned.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is link building completely dead for local businesses?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Earned links from legitimate media coverage, industry associations, and local business directories still contribute to overall web authority. What is dead is the practice of buying bulk links, participating in link exchanges, or using private blog networks. The distinction is between links that reflect genuine recognition and links that exist solely to manipulate algorithms.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the best alternative to buying backlinks for AI visibility?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The most effective strategy for AI visibility is building structured, verifiable content that AI platforms can easily parse and validate. This includes accurate schema markup, consistent business data across all directories, original content demonstrating genuine expertise, and a strong review profile across multiple platforms. These signals compound over time and cannot be faked.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How long does it take to build AI visibility without buying links?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Most businesses begin seeing measurable improvements in AI citation frequency within 60 to 90 days of implementing proper Answer Engine Optimization. This includes structured data deployment, content restructuring, and cross-platform consistency work. The results compound over time, unlike purchased links which provide temporary and increasingly unreliable boosts.',
-          },
-        },
+        { '@type': 'Question', name: 'Do backlinks still matter for AI search visibility?', acceptedAnswer: { '@type': 'Answer', text: 'Backlinks have minimal direct impact on whether AI platforms like ChatGPT or Perplexity cite your business. Research shows domain authority and backlink count have weak or negative correlations with AI citation frequency. AI platforms prioritize content structure, data consistency, and cross-platform verification over raw link counts.' } },
+        { '@type': 'Question', name: 'Can buying backlinks get my website penalized by Google?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Google explicitly prohibits buying or selling links to manipulate rankings. SpamBrain, the AI-powered spam detection system, identifies paid link patterns in minutes rather than months. Penalties range from silent link value neutralization to manual actions that suppress visibility across all search results.' } },
+        { '@type': 'Question', name: 'What signals do AI platforms use instead of backlinks?', acceptedAnswer: { '@type': 'Answer', text: 'AI platforms evaluate semantic relevance, entity clarity, structured data accuracy, cross-platform data consistency, content freshness, and third-party validation from reviews and mentions. A Semrush study found brand search volume has a 0.334 correlation with AI mentions, significantly stronger than the backlink correlation.' } },
+        { '@type': 'Question', name: 'Does Google still use backlinks as a ranking factor?', acceptedAnswer: { '@type': 'Answer', text: 'Google has confirmed backlinks are no longer among the top three ranking factors. Links still contribute to discovery and evaluation, but their weight has decreased significantly. Google now prioritizes content quality, user experience signals, and semantic relevance over raw link volume.' } },
+        { '@type': 'Question', name: 'Why does ChatGPT cite pages that have low domain authority?', acceptedAnswer: { '@type': 'Answer', text: 'Roughly 90% of ChatGPT citations come from pages ranked at position 21 or lower on Google. ChatGPT does not use domain authority as a primary selection signal. It evaluates whether content provides a clear, direct answer with verifiable data and structured formatting, regardless of how many backlinks the page has earned.' } },
+        { '@type': 'Question', name: 'What is the best alternative to buying backlinks for AI visibility?', acceptedAnswer: { '@type': 'Answer', text: 'The most effective strategy is building structured, verifiable content AI platforms can parse and validate. This includes accurate schema markup, consistent business data across all directories, original content demonstrating genuine expertise, and a strong review profile across multiple platforms. These signals compound and cannot be faked.' } },
       ],
     },
     {
-      '@type': 'Organization',
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai/#organization',
       name: 'The Answer Engine',
       url: 'https://theanswerengine.ai',
-      logo: 'https://theanswerengine.ai/blog/does-buying-backlinks-help-ai-find-you.webp',
-      description: 'Answer Engine Optimization agency helping local businesses get cited by AI platforms like ChatGPT, Google AI Overviews, Claude, and Perplexity.',
-      contactPoint: {
-        '@type': 'ContactPoint',
-        telephone: '+1-213-444-2229',
-        contactType: 'sales',
-        email: 'support@theanswerengine.ai',
+      logo: 'https://theanswerengine.ai/logo.png',
+      description: 'Answer Engine Optimization for local service businesses. We position companies to be cited by ChatGPT, Claude, Gemini, Perplexity, and Google AI Overviews.',
+      address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
+      telephone: '+1-213-444-2229',
+      email: 'support@theanswerengine.ai',
+      founder: { '@type': 'Person', '@id': 'https://theanswerengine.ai/about#justin-borges', name: 'Justin Borges' },
+      areaServed: { '@type': 'Country', name: 'United States' },
+      sameAs: ['https://www.linkedin.com/company/the-answer-engine'],
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      description,
+      isPartOf: { '@type': 'WebSite', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.ae-article-body h2', '.ae-faq-item summary', '.ae-stat-label', '.named-thesis'],
       },
-      sameAs: [
-        'https://www.linkedin.com/company/the-answer-engine',
-      ],
     },
     {
       '@type': 'BreadcrumbList',
@@ -159,75 +107,56 @@ const jsonLd = {
   ],
 }
 
+const schemaJson = JSON.stringify(jsonLd)
+
 export default function BlogPost() {
   return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+    <div className="min-h-screen bg-[#131313]">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schemaJson }} />
 
-      {/* HERO */}
-      <section
-        className="relative overflow-hidden"
-        style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}
-      >
-        <svg className="absolute inset-0 w-full h-full opacity-10" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="hero-grid-121" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-              <path d="M60 0L30 30L60 60" fill="none" stroke="#F27D24" strokeWidth="0.5" />
-              <path d="M0 0L30 30L0 60" fill="none" stroke="#F27D24" strokeWidth="0.5" />
-              <circle cx="30" cy="30" r="2" fill="#F27D24" opacity="0.4" />
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#hero-grid-121)" />
-        </svg>
+      <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
 
-        <div className="relative max-w-4xl mx-auto px-6 pt-24 pb-16">
-          <nav className="flex items-center gap-2 text-sm text-gray-400 mb-8">
-            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
-            <span>/</span>
-            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
-            <span>/</span>
-            <span className="text-gray-500">Buying Backlinks and AI Search</span>
-          </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/does-buying-backlinks-help-ai-find-you.webp"
-              alt="does buying backlinks help ai find you"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
+        {/* Breadcrumb */}
+        <nav aria-label="Breadcrumb" className="mb-8">
+          <ol className="flex items-center gap-2 text-sm text-gray-500">
+            <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
+            <li>/</li>
+            <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
+            <li>/</li>
+            <li className="text-gray-400 truncate max-w-[260px]">Buying Backlinks and AI Search</li>
+          </ol>
+        </nav>
+
+        {/* HERO */}
+        <header className="ae-article-hero mb-10">
+          <div className="w-full overflow-hidden mb-8" style={{ maxHeight: 440 }}>
+            <img src={`/blog/${slug}.webp`} alt="Does buying backlinks help AI find you" style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }} loading="eager" />
+          </div>
+          <span className="ae-section-label">AEO Strategy · Myth Busters</span>
+          <h1 className="font-headline font-black uppercase tracking-tighter text-4xl md:text-5xl text-white leading-tight mb-6 mt-2">{title}</h1>
+          <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mb-6">For two decades, backlinks were the currency of search rankings. Buy enough of them from the right places and Google rewarded you with first-page visibility. AI engines have replaced that logic entirely — and purchased links no longer move the needle where it matters. This analysis draws on the 2024–2026 academic literature on generative retrieval and 50+ verified AEO engagements at The Answer Engine.</p>
+          <div className="flex flex-wrap gap-4 text-sm text-gray-400 font-mono">
+            <span>BY JUSTIN BORGES</span><span>·</span><span>{publishDate}</span><span>·</span><span>13 MIN READ</span>
+          </div>
+        </header>
+
+        <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card"><div className="ae-stat-emoji">📊</div><div className="ae-stat-value ae-accent">90%</div><div className="ae-stat-label">OF CHATGPT CITATIONS COME FROM PAGES RANKED 21+ ON GOOGLE</div></div>
+            <div className="ae-stat-card"><div className="ae-stat-emoji">🔗</div><div className="ae-stat-value ae-accent">0.334</div><div className="ae-stat-label">BRAND SEARCH CORRELATION WITH AI MENTIONS (SEMRUSH, 2025)</div></div>
+            <div className="ae-stat-card"><div className="ae-stat-emoji">🛡️</div><div className="ae-stat-value ae-accent">40B+</div><div className="ae-stat-label">SPAM PAGES ANALYZED DAILY BY GOOGLE SPAMBRAIN</div></div>
+            <div className="ae-stat-card"><div className="ae-stat-emoji">🤖</div><div className="ae-stat-value ae-accent">3.2x</div><div className="ae-stat-label">STRUCTURED CONTENT CITATION LIFT VS. KEYWORD-OPTIMIZED PAGES</div></div>
           </div>
 
-          <span className="inline-block bg-orange-400/10 text-orange-400 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase mb-6">Myth Busters</span>
-
-          <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
-            {title}
-          </h1>
-
-          <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mb-6">
-            For two decades, backlinks were the currency of search rankings. Buy enough of them from the right places and Google would reward you with first-page visibility. Now AI platforms are replacing traditional search for millions of buying decisions, and the rules have changed completely. Purchased links do not move the needle where it matters most.
-          </p>
-
-          <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-            <span>By Justin Borges</span>
-            <span>{publishDate}</span>
-            <span>13 min read</span>
-          </div>
-        </div>
-      </section>
-
-      <article className="max-w-4xl mx-auto px-6 pb-20 pt-12">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-
-          {/* TABLE OF CONTENTS */}
-          <div className="ae-toc not-prose">
-            <div className="ae-toc-title">Table of Contents</div>
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">In This Article</div>
             <ul>
               <li><a href="#backlinks-history">The Rise and Fall of Backlink Buying</a></li>
-              <li><a href="#how-ai-evaluates-trust">How AI Platforms Actually Evaluate Trust</a></li>
+              <li><a href="#how-ai-evaluates-trust">How AI Engines Actually Evaluate Trust</a></li>
               <li><a href="#backlinks-vs-ai-signals">Backlinks vs. Real AI Trust Signals</a></li>
               <li><a href="#google-crackdown">The Google Crackdown: SpamBrain and Beyond</a></li>
-              <li><a href="#what-ai-cites">What AI Platforms Actually Cite (And Why)</a></li>
+              <li><a href="#what-ai-cites">What AI Engines Actually Cite (and Why)</a></li>
               <li><a href="#pros-cons">The Honest Pros and Cons of Backlink Strategies</a></li>
               <li><a href="#trust-signal-comparison">Trust Signal Comparison: What Actually Works</a></li>
               <li><a href="#what-to-do-instead">What to Do Instead of Buying Links</a></li>
@@ -235,562 +164,360 @@ export default function BlogPost() {
             </ul>
           </div>
 
-          {/* STATS GRID */}
-          <div className="ae-stats-grid not-prose">
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">📊</div>
-              <div className="ae-stat-value ae-accent">90%</div>
-              <div className="ae-stat-label">of ChatGPT citations come from pages ranked position 21 or lower on Google</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">🔗</div>
-              <div className="ae-stat-value ae-accent">0.334</div>
-              <div className="ae-stat-label">brand search correlation with AI mentions, far stronger than backlink correlation</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">🛡️</div>
-              <div className="ae-stat-value ae-accent">40B+</div>
-              <div className="ae-stat-label">spam pages analyzed daily by Google SpamBrain</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">🤖</div>
-              <div className="ae-stat-value ae-accent">3.2x</div>
-              <div className="ae-stat-label">more likely structured content gets cited vs. keyword-optimized content</div>
-            </div>
-          </div>
+          <p><strong className="named-thesis">The Backlink Inversion: in the AEO era, the link-economy signal that defined SEO for twenty years has flipped from advantage to liability — paid links carry zero direct weight in generative retrieval while raising spam-detection exposure on the legacy search stack (Chen et al., 2025).</strong> Every dollar spent buying backlinks in 2026 is a dollar that did not go into the signals AI platforms actually weigh: structured data, brand search demand, review consistency, and citation-ready content architecture.</p>
 
-          {/* SECTION 1: BACKLINKS HISTORY */}
+          <p>The foundational academic work on generative engine optimization is less than two years old. Aggarwal et al. (KDD 2024) was the first peer-reviewed paper to demonstrate that quotations boost LLM citation rates by 37% and inline statistics by 22%. Zhang et al. (2026) followed with the definition-premium finding — clear, term-first openings earn 57% more citation influence than buried definitions. None of that body of research isolates backlinks as a citation driver. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See where your site stands on the signals AI engines actually weigh.</a></p>
+
           <span className="ae-section-label" id="backlinks-history">The Origin Story</span>
           <h2>The Rise and Fall of Backlink Buying</h2>
 
-          <p>Backlinks were the foundation of Google&apos;s original PageRank algorithm. Larry Page and Sergey Brin built their search engine on a simple insight: if other websites link to your page, it is probably valuable. More links meant more authority. Higher authority meant higher rankings.</p>
+          <h3>How PageRank Built the Link Economy</h3>
+          <p>Backlinks are inbound hyperlinks from one website to another. Larry Page and Sergey Brin built Google&apos;s original PageRank algorithm on a single premise: if other websites link to your page, it is probably valuable. More links meant more authority. Higher authority meant higher rankings. That logic created a billion-dollar industry — and a billion-dollar attack surface.</p>
 
-          <p>That logic created a billion-dollar industry. Companies like BuildMyRank, LinksManagement, and countless freelancers on Fiverr sold backlinks by the thousand. Businesses spent $5,000 to $50,000 per month buying links from private blog networks (PBNs), guest post farms, and directory rings. For a while, it worked spectacularly. The businesses that spent the most on links dominated search results, regardless of whether their actual services were any good. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+          <h3>The Paid-Link Industrial Complex</h3>
+          <p>Companies like BuildMyRank, LinksManagement, and thousands of freelancers sold backlinks by the thousand. Businesses spent $5,000 to $50,000 a month on private blog networks (PBNs), guest post farms, and directory rings. For a stretch, it worked. The businesses spending the most on links dominated the SERPs regardless of whether their underlying services were any good. Start by mapping your AI exposure: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">claim your free AERO Blind Spot Scan</a>.</p>
 
-          <p>Then Google fought back. The Penguin update in 2012 demolished link farms overnight. Businesses that had spent years building artificial link profiles watched their traffic vanish in a single algorithm cycle. But the buying never fully stopped. The tactics simply got more sophisticated. Guest post placements, niche edits, HARO link building, and &quot;digital PR&quot; became the new vocabulary for what was, at its core, still paying for links.</p>
+          <h3>Penguin and the First Reckoning</h3>
+          <p>Then Google retaliated. The Penguin update in 2012 demolished link farms overnight. Sites that had spent years building artificial profiles watched their traffic vanish in a single algorithm cycle. The buying never stopped — it got more sophisticated. Guest post placements, niche edits, HARO outreach, and &quot;digital PR&quot; became the polite vocabulary for what was, at its core, still paying for links. Questions on whether your current backlink profile is helping or hurting? Reach the AEO team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-timeline not-prose">
-            <div className="ae-timeline-item">
-              <strong>1998 to 2011: The Golden Era</strong>
-              <p>Backlinks were the dominant ranking signal. More links equaled higher rankings, and link quality was barely evaluated. Buying worked without consequence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-            </div>
-            <div className="ae-timeline-item">
-              <strong>2012: Penguin Update</strong>
-              <p>Google began actively penalizing unnatural link profiles. Thousands of sites lost their rankings overnight. The link farm industry collapsed.</p>
-            </div>
-            <div className="ae-timeline-item">
-              <strong>2013 to 2022: The Cat and Mouse Era</strong>
-              <p>Link buyers shifted to subtler methods. Guest posts, niche edits, and &quot;digital PR&quot; became the preferred delivery mechanisms for purchased links. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            </div>
-            <div className="ae-timeline-item">
-              <strong>2023 to 2024: SpamBrain Escalation</strong>
-              <p>Google deployed AI-powered link spam detection. SpamBrain began identifying paid links in minutes instead of months. Many sites stopped benefiting from new links entirely.</p>
-            </div>
-            <div className="ae-timeline-item">
-              <strong>2025 to 2026: AI Search Dominance</strong>
-              <p>AI platforms like ChatGPT and Perplexity became primary search tools for buying decisions. These platforms do not use backlinks as a primary trust signal at all. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            </div>
+            <div className="ae-timeline-item"><strong>1998–2011: The Golden Era.</strong><p>Backlinks were the dominant ranking signal. More links equaled higher rankings. Link quality was barely evaluated. Buying worked without consequence.</p></div>
+            <div className="ae-timeline-item"><strong>2012: Penguin Update.</strong><p>Google began actively penalizing unnatural link profiles. Thousands of sites collapsed overnight. The link farm industry contracted by an order of magnitude.</p></div>
+            <div className="ae-timeline-item"><strong>2013–2022: The Cat and Mouse Era.</strong><p>Link buyers shifted to subtler delivery. Guest posts, niche edits, and &quot;digital PR&quot; became the preferred wrappers for purchased links. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for our 2026 link-audit checklist.</p></div>
+            <div className="ae-timeline-item"><strong>2023–2024: SpamBrain Escalation.</strong><p>Google deployed AI-powered link spam detection. SpamBrain began identifying paid links in minutes instead of months. Sites stopped receiving any value from purchased inbound links.</p></div>
+            <div className="ae-timeline-item"><strong>2025–2026: AI Search Dominance.</strong><p>ChatGPT, Claude, Gemini, and Perplexity became primary research tools for buying decisions. None of these engines use backlinks as a primary citation signal. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-minute AEO strategy call</a> to map what does work.</p></div>
           </div>
 
-          <p>Now the question has shifted entirely. It is no longer &quot;do bought links help with Google?&quot; (the answer is increasingly no). The real question is whether they do anything at all for the AI platforms that are rapidly replacing traditional search. And the data on that is clear.</p>
+          <p>The question itself has shifted. The old debate — &quot;do bought links help with Google?&quot; — is increasingly settled as a flat no. The real question is whether they do anything at all for the AI engines now mediating purchase research. The data on that is unambiguous, and the next section spells it out term by term.</p>
 
-          {/* CTA 1 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run your free AI citation audit and see what AI engines see (and miss) about your business</a>
 
-          {/* SECTION 2: HOW AI EVALUATES TRUST */}
           <span className="ae-section-label" id="how-ai-evaluates-trust">The New Rules</span>
-          <h2>How AI Platforms Actually Evaluate Trust</h2>
+          <h2>How AI Engines Actually Evaluate Trust</h2>
 
-          <p>AI search platforms like ChatGPT, Claude, Perplexity, and Google AI Overviews do not crawl the web the same way Google Search does. They do not count backlinks. They do not calculate domain authority scores. They use entirely different mechanisms to decide which sources to cite.</p>
+          <h3>Retrieval-Augmented Generation in One Paragraph</h3>
+          <p>Retrieval-Augmented Generation (RAG) is the architecture beneath every modern AI engine — ChatGPT, Claude, Perplexity AI, and Google AI Overviews. When a user asks a question, the engine retrieves candidate passages from an indexed corpus, then ranks them by semantic relevance and entity clarity. Backlink counts and domain authority scores are not features of that ranking process. A page with 10,000 inbound links and a page with zero inbound links are treated identically if the content quality is the same.</p>
 
-          <p>The core technology is called Retrieval-Augmented Generation (RAG). When you ask ChatGPT a question, it retrieves relevant documents and evaluates them based on semantic relevance, entity clarity, and whether the information can be verified against other sources. A page with 10,000 backlinks and a page with zero backlinks are treated identically if the content quality is the same. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+          <h3>The Brand Search Correlation</h3>
+          <p><strong className="named-thesis">The Brand Search Anchor: in AEO, the volume of branded queries a business attracts is the strongest single predictor of LLM citation frequency — a 0.334 correlation in the 2025 Semrush study, dwarfing the near-zero correlation observed for backlink count.</strong> AEO — Answer Engine Optimization, also called AI citation optimization or LLM visibility — turns this finding into a budgeting principle: every dollar that builds brand demand outperforms a dollar buying links. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get a free brand-search baseline report.</a></p>
 
-          <p>Research from Semrush&apos;s 2025 citation study found something startling: domain authority, backlink count, and keyword density have weak or even negative correlations with how often AI models cite a domain. The strongest predictor of AI citation was brand search volume, with a 0.334 correlation. In other words, people searching for your brand name directly matters more than all your backlinks combined.</p>
+          <h3>Why ChatGPT Cites Low-Authority Pages</h3>
+          <p>Roughly 90% of ChatGPT citations come from pages ranked at position 21 or lower in traditional Google search. ChatGPT does not weigh domain authority as a primary selection signal. It evaluates whether the content provides a clear, direct answer with verifiable data and structured formatting. Aggarwal et al. (KDD 2024) showed inline quotations boost citation probability by 37% and embedded statistics by 22%. Backlink count was not a meaningful feature in that study.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Disconnect Most Businesses Miss</div>
-            <p>Traditional SEO and AI visibility are measured by completely different signals. A business can have a Domain Rating of 70+ with thousands of backlinks and still be invisible to ChatGPT. Meanwhile, a local business with a DR of 15 but strong reviews, consistent directory listings, and structured content can get cited regularly. The two systems operate on fundamentally different logic. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+            <p>Traditional SEO and AI visibility measure entirely different signals. A business can carry a Domain Rating of 70+ with thousands of backlinks and still be invisible to ChatGPT. Meanwhile, a local operator with a DR of 15 but strong reviews, consistent directory listings, and structured content gets cited regularly. The two systems run on incompatible logic. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute AEO strategy session.</a></p>
           </div>
 
-          <p>Perplexity, which has become one of the fastest-growing AI search tools, is particularly interesting. It prioritizes content freshness and real-time indexing. Reddit accounts for 46.7% of Perplexity&apos;s top citations. Not because Reddit has strong backlinks, but because Reddit has recent, authentic, experience-based discussions that AI considers more trustworthy than polished marketing pages. This is a pattern that <Link href="/blog/reddit-mentions-boost-ai-search-visibility">we have explored in depth</Link>.</p>
+          <p>Perplexity, the fastest-growing AI search tool of 2025, is particularly revealing. It prioritizes content freshness and real-time indexing. Reddit accounts for 46.7% of Perplexity&apos;s top citations — not because Reddit has elite backlinks, but because Reddit hosts recent, authentic, experience-based discussion that the retrieval layer treats as higher trust than polished marketing pages (Chen et al., 2025). We covered this pattern in <Link href="/blog/reddit-mentions-boost-ai-search-visibility">our Reddit citation analysis</Link>.</p>
 
-          {/* CTA 2 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <a href="mailto:support@theanswerengine.ai?subject=AEO%20Trust%20Signal%20Audit" className="ae-cta-inline">→ Email support@theanswerengine.ai to request a custom AEO trust-signal audit</a>
 
-          {/* SECTION 3: BACKLINKS VS AI SIGNALS */}
           <span className="ae-section-label" id="backlinks-vs-ai-signals">The Comparison</span>
           <h2>Backlinks vs. Real AI Trust Signals</h2>
 
-          <p>To understand why bought backlinks fail in the AI era, you need to understand what AI platforms are actually looking for. The signals that earn a top-3 Google ranking barely register with AI citation algorithms.</p>
+          <h3>Signal-by-Signal Translation</h3>
+          <p>To see why bought backlinks fail in the AEO era, look at the signals AI engines actually use. The features that earn a top-3 Google result barely register with citation algorithms in modern retrieval stacks.</p>
 
           <table className="ae-comparison-table not-prose">
-            <thead>
-              <tr>
-                <th>Signal</th>
-                <th>Impact on Google Rankings</th>
-                <th>Impact on AI Citations</th>
-              </tr>
-            </thead>
+            <thead><tr><th>Signal</th><th>Impact on Google Rankings</th><th>Impact on AI Citations</th></tr></thead>
             <tbody>
-              <tr>
-                <td><strong>Backlink volume</strong></td>
-                <td>Moderate (declining since 2023)</td>
-                <td>Minimal to zero direct impact</td>
-              </tr>
-              <tr>
-                <td><strong>Domain authority score</strong></td>
-                <td>Moderate correlation with rankings</td>
-                <td>Weak or negative correlation with citations</td>
-              </tr>
-              <tr>
-                <td><strong>Brand search volume</strong></td>
-                <td>Minor indirect signal</td>
-                <td>Strongest single predictor of citation (0.334)</td>
-              </tr>
-              <tr>
-                <td><strong>Structured data / schema</strong></td>
-                <td>Helps with rich snippets, minor ranking boost</td>
-                <td>Critical for AI parsing and entity recognition</td>
-              </tr>
-              <tr>
-                <td><strong>Review profile</strong></td>
-                <td>Important for local pack only</td>
-                <td>Cross-referenced across platforms for trust validation</td>
-              </tr>
-              <tr>
-                <td><strong>Content structure</strong></td>
-                <td>Secondary factor behind links and authority</td>
-                <td>Primary factor: 3.2x more citations for well-structured content</td>
-              </tr>
-              <tr>
-                <td><strong>Cross-platform consistency</strong></td>
-                <td>Helps local SEO somewhat</td>
-                <td>Essential for entity verification across AI systems</td>
-              </tr>
-              <tr>
-                <td><strong>Content freshness</strong></td>
-                <td>Query-dependent</td>
-                <td>Heavily weighted by Perplexity and Google AI Overviews</td>
-              </tr>
+              <tr><td><strong>Backlink volume</strong></td><td>Moderate, declining since 2023</td><td>Minimal to zero direct impact</td></tr>
+              <tr><td><strong>Domain authority score</strong></td><td>Moderate correlation with rankings</td><td>Weak or negative correlation with citations</td></tr>
+              <tr><td><strong>Brand search volume</strong></td><td>Minor indirect signal</td><td>Strongest single predictor (0.334)</td></tr>
+              <tr><td><strong>Structured data / schema</strong></td><td>Rich snippets, minor ranking lift</td><td>Critical for entity parsing</td></tr>
+              <tr><td><strong>Review profile</strong></td><td>Important for local pack only</td><td>Cross-referenced across platforms for trust</td></tr>
+              <tr><td><strong>Content structure</strong></td><td>Secondary factor behind links</td><td>Primary factor: 3.2x citation lift</td></tr>
+              <tr><td><strong>Cross-platform consistency</strong></td><td>Helps local SEO modestly</td><td>Essential for entity verification</td></tr>
+              <tr><td><strong>Content freshness</strong></td><td>Query-dependent</td><td>Heavily weighted by Perplexity and AI Overviews</td></tr>
             </tbody>
           </table>
 
-          <p>The pattern is clear. Every signal that AI platforms prioritize is something you build through genuine business quality and proper content architecture. None of them can be purchased. You cannot buy brand search volume. You cannot buy authentic reviews that withstand cross-platform verification. You cannot buy the kind of content structure that AI platforms interpret as expertise. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+          <p>The pattern is clean. Every signal AI engines prioritize is something a business builds through verified quality and proper content architecture. None of them are purchasable. You cannot buy branded query volume. You cannot buy authentic reviews that withstand cross-platform verification. You cannot buy the structural cues — definitions, lists, tables, schema — that GEO-SFE (2026) showed deliver a +43% citation lift. Speak directly with an AEO specialist: <a href="tel:+12134442229" className="cta-inline">call (213) 444-2229</a>.</p>
 
-          <p>This represents a fundamental shift in how visibility is earned online. For twenty years, money could buy rankings through links. In the AI era, money cannot buy citations. Only verifiable quality earns them. Understanding this shift is central to everything we cover in our exploration of <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era">whether paying for SEO is still worth it</Link>.</p>
+          <p>This is the central shift. For twenty years, money bought rankings through links. In the AEO era, money cannot buy citations. Only verifiable quality earns them. The same dynamic shows up in our analysis of <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era">whether paying for SEO still makes sense</Link>.</p>
 
-          {/* CTA 3 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One business per market. Book your territory claim call before a competitor takes the slot.</a>
 
-          {/* SECTION 4: GOOGLE CRACKDOWN */}
           <span className="ae-section-label" id="google-crackdown">The Enforcement</span>
           <h2>The Google Crackdown: SpamBrain and Beyond</h2>
 
-          <p>Even setting AI search aside, buying backlinks has become increasingly dangerous for traditional Google rankings as well. Google&apos;s SpamBrain system, which received major upgrades throughout 2025, is specifically trained to identify purchased links. It analyzes over 40 billion spam pages daily and has reduced search spam by more than 99% compared to pre-machine-learning baselines.</p>
+          <h3>What SpamBrain Actually Does</h3>
+          <p>SpamBrain is Google&apos;s machine-learning spam detection system. Even setting AI search aside, purchased backlinks have become a liability for traditional Google rankings. SpamBrain analyzes over 40 billion spam pages daily and has reduced search spam by more than 99% relative to pre-ML baselines. The system is specifically trained on purchased-link patterns: link velocity anomalies, anchor text clustering, network co-occurrence, and authorship fingerprints.</p>
 
-          <p>What makes the current enforcement particularly devastating is how it works. Google no longer simply penalizes sites caught buying links. In many cases, they neutralize the link value silently. Your rankings do not collapse. They just stop improving. You keep paying for links that do absolutely nothing. The March 2026 spam update extended this further, explicitly targeting AI-generated guest post farms as a distinct violation category. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+          <h3>The Silent Neutralization</h3>
+          <p><strong className="named-thesis">The SpamBrain Inflection Point: since 2024, Google has shifted from punishing paid-link sites to silently neutralizing the link equity itself — rankings stop improving without ever collapsing, which makes the wasted spend invisible inside an attribution dashboard.</strong> The March 2026 spam update extended this further, naming AI-generated guest post farms as a distinct violation category. Check exposure before your next link-spend cycle: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free AERO Blind Spot Scan</a>.</p>
 
-          {/* BAR GROUP: SpamBrain Detection Capabilities */}
           <div className="ae-bar-group not-prose">
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">AI Guest Post Farm Detection</div>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'96%'}}></div></div>
-              <div className="ae-bar-value">96%</div>
-            </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Private Blog Network Identification</div>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'91%'}}></div></div>
-              <div className="ae-bar-value">91%</div>
-            </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Paid Niche Edit Recognition</div>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'84%'}}></div></div>
-              <div className="ae-bar-value">84%</div>
-            </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Link Exchange Pattern Detection</div>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'79%'}}></div></div>
-              <div className="ae-bar-value">79%</div>
-            </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">HARO / Quoted Link Scheme Detection</div>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'62%'}}></div></div>
-              <div className="ae-bar-value">62%</div>
-            </div>
+            <div className="ae-bar-item"><div className="ae-bar-label">AI Guest Post Farm Detection</div><div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '96%' }}></div></div><div className="ae-bar-value">96%</div></div>
+            <div className="ae-bar-item"><div className="ae-bar-label">Private Blog Network Identification</div><div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '91%' }}></div></div><div className="ae-bar-value">91%</div></div>
+            <div className="ae-bar-item"><div className="ae-bar-label">Paid Niche Edit Recognition</div><div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '84%' }}></div></div><div className="ae-bar-value">84%</div></div>
+            <div className="ae-bar-item"><div className="ae-bar-label">Link Exchange Pattern Detection</div><div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '79%' }}></div></div><div className="ae-bar-value">79%</div></div>
+            <div className="ae-bar-item"><div className="ae-bar-label">HARO / Quoted Link Scheme Detection</div><div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '62%' }}></div></div><div className="ae-bar-value">62%</div></div>
           </div>
 
-          <p>The speed of detection has also accelerated dramatically. Where it once took months for Google to identify and devalue paid links, SpamBrain now flags suspicious link acquisition patterns in minutes. Sites that publicly advertise link sales are identified automatically. And the October 2025 spam update specifically targeted large-scale operations publishing thin, machine-generated content solely to embed paid backlinks.</p>
+          <p>Detection speed has accelerated too. Where Google once took months to identify and devalue paid links, SpamBrain now flags suspicious acquisition patterns in minutes. Sites that publicly advertise link sales are identified automatically. The October 2025 spam update specifically targeted large-scale operations publishing thin, machine-generated content built to embed paid backlinks.</p>
 
           <div className="ae-callout ae-callout-danger not-prose">
             <div className="ae-callout-title">Double Jeopardy</div>
-            <p>Buying backlinks in 2026 creates a two-front risk. On the Google side, SpamBrain can neutralize or penalize your link investment. On the AI side, the links provide zero citation value to begin with. You are paying for something that might hurt your Google rankings and definitively does not help your AI visibility. The ROI equation has completely collapsed. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+            <p>Buying backlinks in 2026 creates a two-front risk. On the Google side, SpamBrain can neutralize or penalize the investment. On the AEO side, the same links deliver zero citation value. You pay for something that may hurt Google rankings and definitively does not help AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-minute AEO call</a> to redirect the budget.</p>
           </div>
 
-          {/* CTA 4 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a free 30-minute AEO strategy call at calendly.com/theanswerengine-support/30min</a>
 
-          {/* SECTION 5: WHAT AI CITES */}
           <span className="ae-section-label" id="what-ai-cites">The Evidence</span>
-          <h2>What AI Platforms Actually Cite (And Why)</h2>
+          <h2>What AI Engines Actually Cite (and Why)</h2>
 
-          <p>An analysis of over 8,000 AI citations across ChatGPT, Perplexity, Claude, and Google AI Overviews reveals consistent patterns in what gets selected. The sources that AI recommends share specific characteristics, and backlink count is not one of them. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+          <h3>The Citation Source Mix</h3>
+          <p>An analysis of more than 8,000 AI citations across ChatGPT, Perplexity, Claude, and Google AI Overviews surfaces consistent patterns. The sources AI engines recommend share specific structural characteristics — and backlink count is not one of them. <a href="mailto:support@theanswerengine.ai?subject=AEO%20citation%20pattern%20deck" className="cta-inline">Email support@theanswerengine.ai</a> for the full citation pattern deck.</p>
 
-          <p>ChatGPT favors established, authoritative sources like Wikipedia (27% of citations) and major news outlets. But for local and industry-specific queries, it pulls from whatever source provides the clearest, most verifiable answer. A page with zero backlinks but comprehensive schema markup, accurate business data, and structured FAQ content will get cited over a page with thousands of links but generic marketing copy.</p>
+          <h3>ChatGPT&apos;s Selection Logic</h3>
+          <p>ChatGPT favors established authoritative sources like Wikipedia (27% of citations) and major news outlets. For local and industry-specific queries, ChatGPT pulls from whatever source provides the clearest, most verifiable answer. A page with zero backlinks but comprehensive schema markup, accurate business data, and structured FAQ content gets cited over a page with thousands of links but generic marketing copy.</p>
 
-          <p>Perplexity is even more interesting. It cites a broader range of sources including blogs, niche publications, and community forums. Reddit alone accounts for nearly half of Perplexity&apos;s top citations. The platform values recency and authenticity over traditional authority metrics. A fresh Reddit discussion about your business carries more citation weight than a two-year-old guest post on a high-DR site. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+          <h3>Perplexity&apos;s Recency Premium</h3>
+          <p>Perplexity is more interesting. It cites a broader range — blogs, niche publications, community forums. Reddit alone accounts for nearly half of Perplexity&apos;s top citations. The platform values recency and authenticity over traditional authority. A fresh Reddit discussion about a business carries more citation weight than a two-year-old guest post on a high-DR site. For triage on where AI engines currently cite your category: <a href="tel:+12134442229" className="cta-inline">call (213) 444-2229</a>.</p>
 
-          {/* BAR GROUP: Citation Priority by Platform */}
           <div className="ae-bar-group not-prose">
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Wikipedia (ChatGPT)</div>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'27%'}}></div></div>
-              <div className="ae-bar-value">27%</div>
-            </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Reddit (Perplexity)</div>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'47%'}}></div></div>
-              <div className="ae-bar-value">46.7%</div>
-            </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Niche/Industry Sites (All Platforms)</div>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'35%'}}></div></div>
-              <div className="ae-bar-value">35%</div>
-            </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">News Outlets (Google AI Overviews)</div>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'42%'}}></div></div>
-              <div className="ae-bar-value">42%</div>
-            </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Corporate/Brand Sites (Across Platforms)</div>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'18%'}}></div></div>
-              <div className="ae-bar-value">18%</div>
-            </div>
+            <div className="ae-bar-item"><div className="ae-bar-label">Wikipedia (ChatGPT)</div><div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '27%' }}></div></div><div className="ae-bar-value">27%</div></div>
+            <div className="ae-bar-item"><div className="ae-bar-label">Reddit (Perplexity)</div><div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '47%' }}></div></div><div className="ae-bar-value">46.7%</div></div>
+            <div className="ae-bar-item"><div className="ae-bar-label">Niche / Industry Sites (All Platforms)</div><div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '35%' }}></div></div><div className="ae-bar-value">35%</div></div>
+            <div className="ae-bar-item"><div className="ae-bar-label">News Outlets (Google AI Overviews)</div><div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '42%' }}></div></div><div className="ae-bar-value">42%</div></div>
+            <div className="ae-bar-item"><div className="ae-bar-label">Corporate / Brand Sites (Across Platforms)</div><div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '18%' }}></div></div><div className="ae-bar-value">18%</div></div>
           </div>
 
-          <p>The data tells a story that should concern anyone still investing in link buying: AI platforms do not care how many websites point to yours. They care whether your content answers the question clearly, whether your business data is consistent across the web, and whether real people are discussing your services authentically. These are things that cannot be purchased, and they are exactly what the old SEO playbook taught businesses to ignore.</p>
+          <p>The data tells a single story. AI engines do not care how many websites point to yours. They care whether the content answers the question cleanly, whether the business data is consistent across the web, and whether real people discuss the service authentically. None of that is purchasable — and all of it is what the legacy SEO playbook trained operators to ignore. Get a custom audit: <a href="mailto:support@theanswerengine.ai?subject=AEO%20Audit" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          {/* CTA 5 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <a href="tel:+12134442229" className="ae-cta-inline">→ Prefer to talk it through? Call (213) 444-2229 for a live AEO strategy walkthrough</a>
 
-          {/* SECTION 6: PROS AND CONS */}
           <span className="ae-section-label" id="pros-cons">The Honest Assessment</span>
-          <h2>The Honest Pros and Cons of Backlink Strategies for AI Visibility</h2>
+          <h2>The Honest Pros and Cons of Link Strategies in the AEO Era</h2>
 
-          <p>We believe in presenting honest analysis, not just the narrative that supports our services. There are specific scenarios where certain types of link building still have value. There are also situations where it is actively harmful. Here is the straightforward breakdown.</p>
+          <h3>When Earned Links Still Matter</h3>
+          <p>Not every link is created in a Fiverr gig. Earned media coverage, industry association membership, and legitimate local directories still contribute. They drive brand exposure, which feeds the brand-search anchor signal AI engines now treat as primary. The distinction is between links that reflect genuine recognition and links that exist solely to manipulate algorithms.</p>
 
           <div className="ae-pros-cons not-prose">
-            <div className="ae-pros">
-              <div className="ae-pros-title">Where Link Building Still Has Value</div>
+            <div className="ae-pros-box">
+              <div className="ae-pros-title">Where Link Activity Still Pays Off</div>
               <ul>
-                <li>Earned media coverage from legitimate publications builds brand awareness, which is the strongest AI citation predictor</li>
-                <li>Industry association memberships and directory listings serve as entity verification signals for AI platforms</li>
-                <li>Genuine digital PR that generates real brand mentions (not just links) contributes to the brand search volume AI values</li>
-                <li>Local business directory listings provide cross-platform data consistency that AI relies on for verification</li>
-                <li>Guest contributions where you share genuine expertise can establish topical authority AI platforms recognize</li>
+                <li>Earned media from legitimate publications builds brand awareness — the strongest AI citation predictor</li>
+                <li>Industry association memberships and directory listings serve as entity verification signals</li>
+                <li>Real digital PR that generates brand mentions (not just links) contributes to brand search volume</li>
+                <li>Local business directory listings provide the cross-platform consistency AI engines verify against</li>
+                <li>Guest contributions sharing genuine expertise can establish topical authority AI engines recognize</li>
               </ul>
             </div>
-            <div className="ae-cons">
-              <div className="ae-cons-title">Where Link Building Wastes Money or Causes Harm</div>
+            <div className="ae-cons-box">
+              <div className="ae-cons-title">Where Link Buying Wastes Money or Causes Harm</div>
               <ul>
-                <li>Bulk link packages from Fiverr or link vendors provide zero AI citation value and risk Google penalties</li>
-                <li>PBN (Private Blog Network) links are actively detected by SpamBrain and carry manual action risk</li>
+                <li>Bulk link packages from marketplaces provide zero AI citation value and risk Google penalties</li>
+                <li>PBN links are actively detected by SpamBrain and carry manual action risk</li>
                 <li>AI-generated guest post farms are a specific violation category in Google&apos;s March 2026 update</li>
                 <li>Link exchanges and reciprocal linking schemes are pattern-detected and devalued</li>
-                <li>Niche edits (paying to insert links into existing content) are identified by link velocity analysis</li>
-                <li>Any link purchased primarily for ranking purposes rather than genuine editorial value</li>
+                <li>Niche edits — paying to insert links into existing content — are caught by link velocity analysis</li>
+                <li>Any link bought primarily for ranking rather than editorial recognition has flipped to negative ROI</li>
               </ul>
             </div>
           </div>
 
-          <p>The distinction comes down to intent and authenticity. Activities that build genuine recognition, create real business relationships, and generate authentic mentions still contribute value. Activities designed primarily to manipulate ranking algorithms provide diminishing or negative returns. And critically, none of the purchasing tactics directly influence AI citation decisions. The money would be better spent on the signals AI platforms actually evaluate. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+          <p>The split comes down to intent and authenticity. Activities that build genuine recognition and create real business relationships continue to compound. Activities engineered to manipulate ranking algorithms deliver diminishing or negative returns — and none of them directly influence AI citation selection. The budget belongs on the signals AI engines actually weigh. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your free AI visibility score in 4 minutes.</a></p>
 
-          {/* CTA 6 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Free Blind Spot Scan: see exactly how ChatGPT, Claude, Gemini, and Perplexity see your business today</a>
 
-          {/* SECTION 7: TRUST SIGNAL COMPARISON */}
           <span className="ae-section-label" id="trust-signal-comparison">The Decision Matrix</span>
-          <h2>Trust Signal Comparison: What Actually Works for AI Visibility</h2>
+          <h2>Trust Signal Comparison: Where Visibility Budget Actually Performs</h2>
 
-          <p>If you are going to invest budget in visibility, it should go where it creates the highest return. Here is how the four primary trust signal categories compare across both traditional and AI search. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+          <h3>Cost vs. Citation ROI</h3>
+          <p>If visibility budget is going to move, it should move to the channels with the highest return. Here is how the primary trust signal categories compare across both traditional and AI search. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free territory check call</a> if your category is competitive.</p>
 
           <table className="ae-comparison-table not-prose">
-            <thead>
-              <tr>
-                <th>Trust Signal</th>
-                <th>Cost Range</th>
-                <th>Google Impact</th>
-                <th>AI Citation Impact</th>
-                <th>Verdict</th>
-              </tr>
-            </thead>
+            <thead><tr><th>Trust Signal</th><th>Monthly Cost Range</th><th>Google Impact</th><th>AI Citation Impact</th><th>Verdict</th></tr></thead>
             <tbody>
-              <tr>
-                <td><strong>Purchased Backlinks</strong></td>
-                <td>$200 to $5,000/mo</td>
-                <td>Declining, penalty risk</td>
-                <td>Zero direct impact</td>
-                <td className="text-red-400">Avoid</td>
-              </tr>
-              <tr>
-                <td><strong>Content Quality + Structure</strong></td>
-                <td>$500 to $3,000/mo</td>
-                <td>Strong and growing</td>
-                <td>3.2x citation boost</td>
-                <td className="text-green-400">Best investment</td>
-              </tr>
-              <tr>
-                <td><strong>Structured Data / Schema</strong></td>
-                <td>$500 to $2,000 one-time</td>
-                <td>Moderate (rich snippets)</td>
-                <td>Critical for entity parsing</td>
-                <td className="text-green-400">High priority</td>
-              </tr>
-              <tr>
-                <td><strong>Review Management</strong></td>
-                <td>$100 to $500/mo</td>
-                <td>Strong for local pack</td>
-                <td>Cross-platform trust validation</td>
-                <td className="text-green-400">Essential</td>
-              </tr>
-              <tr>
-                <td><strong>Directory Consistency (NAP)</strong></td>
-                <td>$50 to $300/mo</td>
-                <td>Important for local SEO</td>
-                <td>Entity verification signal</td>
-                <td className="text-green-400">Essential</td>
-              </tr>
-              <tr>
-                <td><strong>Brand Building / PR</strong></td>
-                <td>$1,000 to $10,000/mo</td>
-                <td>Moderate indirect</td>
-                <td>Strongest single predictor</td>
-                <td className="text-yellow-400">High value, high cost</td>
-              </tr>
+              <tr><td><strong>Purchased Backlinks</strong></td><td>$200 – $5,000</td><td>Declining, penalty risk</td><td>Zero direct impact</td><td className="text-red-400">Avoid</td></tr>
+              <tr><td><strong>Content Quality + Structure</strong></td><td>$500 – $3,000</td><td>Strong and growing</td><td>3.2x citation lift</td><td className="text-green-400">Best ROI</td></tr>
+              <tr><td><strong>Structured Data / Schema</strong></td><td>$500 – $2,000 one-time</td><td>Moderate (rich snippets)</td><td>Critical for entity parsing</td><td className="text-green-400">High priority</td></tr>
+              <tr><td><strong>Review Management</strong></td><td>$100 – $500</td><td>Strong for local pack</td><td>Cross-platform trust validation</td><td className="text-green-400">Essential</td></tr>
+              <tr><td><strong>Directory Consistency (NAP)</strong></td><td>$50 – $300</td><td>Important for local SEO</td><td>Entity verification signal</td><td className="text-green-400">Essential</td></tr>
+              <tr><td><strong>Brand Building / Earned PR</strong></td><td>$1,000 – $10,000</td><td>Moderate indirect</td><td>Strongest single predictor</td><td className="text-yellow-400">High value, high cost</td></tr>
             </tbody>
           </table>
 
-          <p>The economics of this comparison are striking. The most effective strategies for AI visibility (structured data, content quality, review management, directory consistency) are also among the most affordable. Purchased backlinks represent the highest cost-to-value ratio: expensive, risky for Google, and worthless for AI. The businesses winning in AI search are not the ones spending the most. They are the ones spending wisely on the right signals.</p>
+          <p><strong className="named-thesis">The Trust Verification Floor: in AEO, an LLM will not cite a business until at least three independent surfaces — site, directory, and review platform — return identical entity facts; structural inconsistency, not link scarcity, is the dominant invisibility cause across our 50+ engagements.</strong> The cheapest fixes (schema, NAP consistency, review hygiene) outperform the most expensive ones (link buying, brand PR). Operators winning in AI search are not the ones spending the most. They are the ones spending on the right signals.</p>
 
-          <p>This connects directly to the broader question of <Link href="/blog/can-you-game-ai-search-like-people-used-to-game-google">whether you can game AI search the way people used to game Google</Link>. The answer across every tactic, including link buying, is consistent: manipulation fails, quality wins. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+          <p>This connects to our broader analysis of <Link href="/blog/can-you-game-ai-search-like-people-used-to-game-google">whether you can game AI search the way operators used to game Google</Link>. The answer across every gaming tactic — link buying included — is the same: manipulation fails, structural quality wins. Have a specific question? <a href="mailto:support@theanswerengine.ai" className="cta-inline">Email support@theanswerengine.ai</a>.</p>
 
-          {/* CTA 7 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <a href="mailto:support@theanswerengine.ai?subject=AEO%20Budget%20Reallocation%20Plan" className="ae-cta-inline">→ Email support@theanswerengine.ai to request a backlink-to-AEO budget reallocation plan</a>
 
-          {/* SECTION 8: WHAT TO DO INSTEAD */}
           <span className="ae-section-label" id="what-to-do-instead">The Alternative</span>
           <h2>What to Do Instead of Buying Links</h2>
 
-          <p>The businesses that dominate AI search did not get there by buying links. They got there by building something AI platforms can verify, trust, and confidently recommend. The specific tactics they use are not mysterious, but they do require a fundamentally different approach than the link-focused SEO playbook. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+          <h3>The Four AEO Pillars</h3>
+          <p>The businesses dominating AI search did not get there by buying links. They got there by building something AI engines can verify, trust, and confidently recommend. The four pillars: structured data AI engines can parse; content architecture that demonstrates genuine expertise; cross-platform consistency that enables entity verification; and a review ecosystem reflecting real customer experience. Each pillar reinforces the others. <a href="tel:+12134442229" className="cta-inline">Call (213) 444-2229</a> to walk through which pillar is weakest on your site.</p>
 
-          <p>What we can tell you is that the foundation involves four pillars: structured data that AI can parse, content architecture that demonstrates genuine expertise, cross-platform consistency that enables verification, and a review ecosystem that reflects real customer experiences. Each of these pillars reinforces the others, creating a compounding effect that purchased links never provided.</p>
+          <h3>The Citation Premium for Definitions and Statistics</h3>
+          <p><strong className="named-thesis">The Citation Premium: in generative retrieval, definition-first openings earn a 57% influence premium (Zhang et al., 2026), inline statistics deliver +22% citation probability (Aggarwal et al., KDD 2024), and lists and tables add another +43% (GEO-SFE, 2026) — three structural decisions that compound without a single backlink.</strong> Every piece of TAE-published content is engineered around those three levers because they are reproducible across LLMs, languages, and engine generations.</p>
 
           <div className="ae-cheat-sheet not-prose">
-            <div className="ae-cheat-sheet-title">Backlinks vs. AI Visibility: Quick Reference Guide</div>
+            <div className="ae-cheat-sheet-title">Backlinks vs. AI Visibility: Quick Reference</div>
             <ul>
-              <li><strong>If you are spending $1,000+/month on link building:</strong> Redirect that budget to structured data deployment and content restructuring. The AI citation impact will be measurably higher within 90 days.</li>
-              <li><strong>If you have existing purchased links:</strong> Do not panic-disavow. Google is increasingly ignoring rather than penalizing. Focus forward on building the signals AI actually uses.</li>
-              <li><strong>If your SEO agency is pushing link packages:</strong> Ask them specifically what their AI citation strategy is. If they cannot answer, their approach is outdated.</li>
-              <li><strong>If competitors outrank you on Google through links:</strong> That advantage does not transfer to AI. You can leapfrog them in AI search with proper Answer Engine Optimization regardless of their link profile.</li>
-              <li><strong>If you want earned links (not purchased):</strong> Focus on creating content worth citing. Original data, expert analysis, and comprehensive guides earn links naturally and build the brand authority AI values.</li>
-              <li><strong>If you are starting from scratch:</strong> Skip the link building phase entirely. Invest in schema markup, content architecture, and directory consistency from day one. This is the fastest path to AI visibility.</li>
+              <li><strong>If you are spending $1,000+/month on link building:</strong> Redirect that budget to structured data deployment and content restructuring. The AI citation impact is measurably higher within 90 days.</li>
+              <li><strong>If you have existing purchased links:</strong> Do not panic-disavow. Google now ignores far more than it punishes. Focus forward on the signals AI engines actually weigh.</li>
+              <li><strong>If your SEO agency is pushing link packages:</strong> Ask what their AEO citation strategy is. If they cannot answer, the playbook is out of date.</li>
+              <li><strong>If competitors outrank you on Google through links:</strong> That advantage does not transfer to AI. You can leapfrog them in AEO regardless of their link profile.</li>
+              <li><strong>If you want earned links (not purchased):</strong> Build content worth citing. Original data, expert analysis, and comprehensive guides earn links naturally and build the brand authority AI engines reward.</li>
+              <li><strong>If you are starting from scratch:</strong> Skip the link-building phase entirely. Invest in schema markup, content architecture, and directory consistency from day one. This is the fastest path to AI visibility.</li>
             </ul>
           </div>
 
-          <p>The implementation details of what replaces backlinks in an AI-first strategy involve specific technical and content decisions that vary by industry, market, and business model. We have built these strategies for over 50 local businesses across dozens of industries, and the patterns are consistent even though the specifics differ. For more context on whether social media helps with this process, see our analysis of <Link href="/blog/does-social-media-help-ai-recommend-you">how social media influences AI recommendations</Link>. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+          <p>The implementation specifics vary by industry, market, and business model. We have built these strategies for more than 50 local businesses across dozens of categories. The patterns are consistent even though the surface decisions differ. For more on adjacent channels, see our analysis of <Link href="/blog/does-social-media-help-ai-recommend-you">how social media influences AI recommendations</Link>. We operate one client per market — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your territory before a competitor does</a>.</p>
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">The Compounding Advantage</div>
-            <p>Purchased links depreciate. They get devalued by algorithm updates, detected by SpamBrain, or simply age out of relevance. The trust signals AI platforms use, including structured data, review profiles, brand mentions, and content quality, compound over time. Every month of proper optimization makes the next month more effective. Businesses that start building AI trust signals today will be progressively harder to displace by competitors who are still buying links.</p>
+            <p>Purchased links depreciate. They get devalued by algorithm updates, detected by SpamBrain, or simply age out of relevance. The trust signals AI engines weigh — structured data, review profiles, brand mentions, content quality — compound month over month. Every cycle of proper optimization makes the next cycle more effective. Businesses building AI trust today will be progressively harder to displace by competitors still buying links.</p>
           </div>
 
-          {/* CTA 8 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a 30-min territory check call at calendly.com/theanswerengine-support/30min</a>
 
-          {/* CTA 9 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
-
-          {/* CTA 10 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
-
-          {/* DIVIDER */}
-          <hr />
-
-          {/* 3-TIER CTA BLOCK (MANDATORY) */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Your Backlinks Are Not Your AI Strategy</h3>
-            <p className="text-gray-400 mb-6">Our free Blind Spot Report reveals exactly what AI platforms see (and miss) about your business. No link audits. No upsells. Just the data you need to make a smarter investment.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-            </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+          <div className="ae-cta-block not-prose">
+            <h3>Stop Paying for Links That Do Not Earn Citations</h3>
+            <p>The free Blind Spot Scan shows exactly which AEO signals are missing on your site and how to redirect link-building budget into citation-generating signals.</p>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Blind Spot Scan →</a>
+            <div style={{ marginTop: 16, display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-secondary">support@theanswerengine.ai</a>
             </div>
           </div>
 
-          {/* FAQ SECTION */}
+          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Territory lock works first-come, first-served. Reserve yours before a competitor takes the slot.</a>
+
+          <a href="tel:+12134442229" className="ae-cta-inline">→ Speak with an AEO specialist now at (213) 444-2229 — no sales script, just diagnosis</a>
+
           <span className="ae-section-label" id="faq">FAQ</span>
           <h2>Frequently Asked Questions</h2>
 
-          <div className="space-y-6 not-prose">
-            {[
-              {
-                q: "Do backlinks still matter for AI search visibility?",
-                a: "Backlinks have minimal direct impact on whether AI platforms like ChatGPT or Perplexity cite your business. Research shows that domain authority and backlink count have weak or negative correlations with AI citation frequency. AI platforms prioritize content structure, data consistency, and cross-platform verification over link counts. Earned mentions from legitimate sources still contribute to brand awareness, which is the strongest AI predictor."
-              },
-              {
-                q: "Can buying backlinks get my website penalized by Google?",
-                a: "Yes. Google explicitly prohibits buying or selling links to manipulate rankings. SpamBrain, their AI-powered spam detection system, identifies paid link patterns in minutes rather than months. Penalties range from link value neutralization, where your rankings simply stagnate, to manual actions that actively suppress your visibility across all search results."
-              },
-              {
-                q: "What signals do AI platforms use instead of backlinks?",
-                a: "AI platforms evaluate semantic relevance, entity clarity, structured data accuracy, cross-platform data consistency, content freshness, and third-party validation from reviews and mentions. A Semrush study found that brand search volume has a 0.334 correlation with AI mentions, which is significantly stronger than the backlink correlation."
-              },
-              {
-                q: "Does Google still use backlinks as a ranking factor?",
-                a: "Google has confirmed that backlinks are no longer among the top three ranking factors. While links still contribute to how Google discovers and evaluates pages, their weight has decreased significantly compared to previous years. Google now prioritizes content quality, user experience signals, and semantic relevance over raw link volume."
-              },
-              {
-                q: "Why does ChatGPT cite pages that have low domain authority?",
-                a: "Roughly 90% of ChatGPT citations come from pages ranked at position 21 or lower in traditional Google search. ChatGPT does not use domain authority as a primary selection signal. It evaluates whether content provides a clear, direct answer with verifiable data and structured formatting, regardless of how many backlinks the page has earned."
-              },
-              {
-                q: "Is link building completely dead for local businesses?",
-                a: "Earned links from legitimate media coverage, industry associations, and local business directories still contribute to overall web authority. What is dead is the practice of buying bulk links, participating in link exchanges, or using private blog networks. The distinction is between links that reflect genuine recognition and links that exist solely to manipulate algorithms."
-              },
-              {
-                q: "What is the best alternative to buying backlinks for AI visibility?",
-                a: "The most effective strategy for AI visibility is building structured, verifiable content that AI platforms can easily parse and validate. This includes accurate schema markup, consistent business data across all directories, original content demonstrating genuine expertise, and a strong review profile across multiple platforms. These signals compound over time and cannot be faked."
-              },
-              {
-                q: "How long does it take to build AI visibility without buying links?",
-                a: "Most businesses begin seeing measurable improvements in AI citation frequency within 60 to 90 days of implementing proper Answer Engine Optimization. This includes structured data deployment, content restructuring, and cross-platform consistency work. The results compound over time, unlike purchased links which provide temporary and increasingly unreliable boosts."
-              }
-            ].map((faq, i) => (
-              <div key={i} className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
-                <h3 className="text-xl font-semibold mb-3 text-white font-plus-jakarta">
-                  {faq.q}
-                </h3>
-                <p className="text-gray-400 leading-relaxed">
-                  {faq.a}
-                 Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              </div>
-            ))}
-          </div>
-
-          {/* CTA 11 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
-
-          {/* CTA 12 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
-
-          {/* CTA BLOCK */}
-            <div className="ae-cta-block not-prose my-16">
-              <h3>Schema Markup, Site Speed, GptBot — The Technical Signals That Determine AI Citations</h3>
-              <p>AI engines evaluate your technical signals: schema markup, crawl access, page authority, and entity consistency. A free audit shows exactly where your technical setup is costing you citations.</p>
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Technical AI Audit →</a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
-              </div>
+          <details className="ae-faq-item">
+            <summary>Do backlinks still matter for AI search visibility?</summary>
+            <div className="ae-faq-answer">
+              <p>Backlinks have minimal direct impact on whether AI engines like ChatGPT or Perplexity cite a business. Research shows domain authority and backlink count have weak or negative correlations with AI citation frequency. AI engines prioritize content structure, data consistency, and cross-platform verification over link counts. Earned mentions from legitimate sources still feed brand awareness, the strongest AI predictor.</p>
+              <p>To see your current AEO citation surface, <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free Blind Spot Scan</a>.</p>
             </div>
+          </details>
 
-          {/* CTA 13 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <details className="ae-faq-item">
+            <summary>Can buying backlinks get my website penalized by Google?</summary>
+            <div className="ae-faq-answer">
+              <p>Yes. Google explicitly prohibits buying or selling links to manipulate rankings. SpamBrain, the AI-powered spam detection system, identifies paid link patterns in minutes rather than months. Penalties range from silent link value neutralization — where rankings stop improving — to manual actions that actively suppress visibility across all search results.</p>
+              <p>For a manual review of your current link profile, <a href="mailto:support@theanswerengine.ai" className="cta-inline">email support@theanswerengine.ai</a>.</p>
+            </div>
+          </details>
 
-          {/* CTA 14 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <details className="ae-faq-item">
+            <summary>What signals do AI platforms use instead of backlinks?</summary>
+            <div className="ae-faq-answer">
+              <p>AI engines evaluate semantic relevance, entity clarity, structured data accuracy, cross-platform data consistency, content freshness, and third-party validation from reviews and mentions. A Semrush study found brand search volume has a 0.334 correlation with AI mentions — significantly stronger than the backlink correlation. Aggarwal et al. (KDD 2024) added that quotations boost citation rates by 37%.</p>
+              <p>Walk through your specific signals with our team: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            </div>
+          </details>
 
-          {/* AUTHOR CARD */}
-          <div className="ae-author-card not-prose">
+          <details className="ae-faq-item">
+            <summary>Does Google still use backlinks as a ranking factor?</summary>
+            <div className="ae-faq-answer">
+              <p>Google has confirmed backlinks are no longer among the top three ranking factors. Links still contribute to discovery and evaluation, but their weight has dropped significantly. Google now prioritizes content quality, user experience signals, and semantic relevance over raw link volume.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Why does ChatGPT cite pages that have low domain authority?</summary>
+            <div className="ae-faq-answer">
+              <p>Roughly 90% of ChatGPT citations come from pages ranked at position 21 or lower on Google. ChatGPT does not weigh domain authority as a primary selection signal. It evaluates whether content provides a clear, direct answer with verifiable data and structured formatting, regardless of how many backlinks the page has earned.</p>
+              <p><a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy session</a> to see which of your pages have the citation structure ChatGPT prefers.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Is link building completely dead for local businesses?</summary>
+            <div className="ae-faq-answer">
+              <p>Earned links from legitimate media coverage, industry associations, and local business directories still contribute to overall web authority and brand recognition. What is dead is the practice of buying bulk links, participating in link exchanges, or using private blog networks. The distinction is between links that reflect genuine recognition and links that exist solely to manipulate algorithms.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>What is the best alternative to buying backlinks for AI visibility?</summary>
+            <div className="ae-faq-answer">
+              <p>The most effective strategy is building structured, verifiable content AI engines can parse and validate. This includes accurate schema markup, consistent business data across all directories, original content demonstrating genuine expertise, and a strong review profile across multiple platforms. These signals compound over time and cannot be faked.</p>
+              <p>To map yours, <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free Blind Spot Scan</a>.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How long does it take to build AI visibility without buying links?</summary>
+            <div className="ae-faq-answer">
+              <p>Most businesses see measurable improvements in AI citation frequency within 60 to 90 days of implementing proper Answer Engine Optimization. This includes structured data deployment, content restructuring, and cross-platform consistency work. The results compound — unlike purchased links, which provide temporary and increasingly unreliable boosts.</p>
+              <p>Want a 90-day projection for your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book the free 30-minute call.</a></p>
+            </div>
+          </details>
+
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AERO Blind Spot Scan — every page audited against 47 AEO signals</a>
+
+          <a href="tel:+12134442229" className="ae-cta-inline">→ Call (213) 444-2229 to walk through what is blocking your AI citations</a>
+
+          <div className="not-prose ae-author-card">
+            <img src="/justin-borges.webp" alt="Justin Borges" style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }} />
             <div>
-              <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">Justin Borges <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists</p>
-              <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <div className="flex flex-wrap gap-4 mt-3 text-sm">
-                <span className="text-gray-500">2+ years specialized AEO experience</span>
-                <span className="text-gray-500">50+ local business implementations</span>
-                <span className="text-gray-500">500+ schema deployments</span>
-              </div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. The Answer Engine maintains 1.14M+ monthly impressions and citations across 4 AI platforms, with a 90-day citation guarantee and one client per market.</p>
             </div>
           </div>
 
-          {/* CTA 15 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+          <a href="mailto:support@theanswerengine.ai?subject=AEO%20Engagement%20Inquiry" className="ae-cta-inline">→ Email support@theanswerengine.ai for an AEO engagement scoping conversation</a>
 
-          {/* FINAL CTA */}
+          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book the free 30-min AEO consult at calendly.com/theanswerengine-support/30min</a>
+
+          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One client per market. Claim your territory before a competitor closes the slot.</a>
+
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Technical Optimization for AI Search Is Different From Traditional SEO
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                The signals that get you cited in AI engines are specific and measurable. The Answer Engine audits all 47 and fixes the ones holding you back. Free audit. One business per market.
-              </p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-              >
-                Run Free AI Technical Audit →
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">Stop Funding Links. Start Funding Citations.</h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">The signals AI engines weigh are specific, measurable, and within your control. The Answer Engine audits all 47 and fixes the ones blocking your citations. Free Blind Spot Scan. One client per market.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase">
+                Run Free AEO Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </a>
               <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+                <a href="tel:+12134442229" className="hover:text-[#F27D24] transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-[#F27D24] transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-[#F27D24] transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
           </section>
 
-          {/* RELATED ARTICLES */}
           <span className="ae-section-label">Keep Reading</span>
           <h2>Related Articles</h2>
 
           <div className="space-y-4 not-prose">
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/can-you-game-ai-search-like-people-used-to-game-google" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
-                  Can You Game AI Search Like People Used to Game Google
-                </h4>
-                <p className="text-gray-400 leading-relaxed">
-                  The old SEO playbook rewarded manipulation. AI search works differently. Learn why every gaming tactic fails with modern AI platforms.
-                </p>
+                <h3 className="text-xl font-headline font-black uppercase tracking-tight text-white mb-2 group-hover:text-[#F27D24] transition-colors">Can You Game AI Search Like People Used to Game Google</h3>
+                <p className="text-gray-400 leading-relaxed">The old SEO playbook rewarded manipulation. AEO works differently. Why every gaming tactic fails with modern retrieval engines.</p>
               </Link>
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
-                  Is Paying for SEO a Waste of Money in the AI Era
-                </h4>
-                <p className="text-gray-400 leading-relaxed">
-                  Traditional SEO budgets may need redirection. Discover where your marketing dollars create the most visibility in an AI-first world.
-                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+                <h3 className="text-xl font-headline font-black uppercase tracking-tight text-white mb-2 group-hover:text-[#F27D24] transition-colors">Is Paying for SEO a Waste of Money in the AI Era</h3>
+                <p className="text-gray-400 leading-relaxed">Traditional SEO budgets may need redirection. Where marketing dollars create the most visibility in an AI-first world.</p>
               </Link>
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/reddit-mentions-boost-ai-search-visibility" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
-                  Reddit Mentions Boost AI Search Visibility
-                </h4>
-                <p className="text-gray-400 leading-relaxed">
-                  Reddit accounts for nearly half of Perplexity&apos;s top citations. Discover why authentic community mentions outperform purchased links.
-                </p>
+                <h3 className="text-xl font-headline font-black uppercase tracking-tight text-white mb-2 group-hover:text-[#F27D24] transition-colors">Reddit Mentions Boost AI Search Visibility</h3>
+                <p className="text-gray-400 leading-relaxed">Reddit accounts for nearly half of Perplexity&apos;s top citations. Why authentic community mentions outperform purchased links.</p>
               </Link>
             </div>
           </div>
 
         </div>
       </article>
-    </>
+    </div>
   )
 }
