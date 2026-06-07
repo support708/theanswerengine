@@ -3,14 +3,14 @@ import Link from 'next/link'
 
 export const dynamicParams = true
 
-const title = 'Does Social Media Help AI Find Your Business'
-const description = 'Social media does not directly drive AEO citations. The Answer Engine reveals what AI platforms actually use to find businesses. Free Blindspot Scan.'
+const title = 'Does Social Media Help AI Find Your Business? (2025 Guide)'
+const description = 'The 2025 AEO playbook on social media. We map what AI platforms actually consume — and what they ignore. Free Blindspot Scan.'
 const slug = 'does-social-media-help-ai-find-your-business'
 const publishDate = '2026-06-07'
 const lastModified = '2026-06-07'
 
 export const metadata: Metadata = {
-  title: `${title} | The Answer Engine`,
+  title: 'Social Media & AI Search: 2025 Guide | The Answer Engine',
   description,
   keywords: 'social media AI visibility, social signals AI search, LinkedIn AI citations, YouTube AEO, social media AI ranking, AI brand mentions, Answer Engine Optimization, AEO social strategy',
   openGraph: {
@@ -201,7 +201,7 @@ export default function BlogPost() {
             <span>/</span>
             <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
             <span>/</span>
-            <span className="text-gray-500">Does Social Media Help AI Find Your Business</span>
+            <span className="text-gray-500">Does Social Media Help AI Find Your Business? (2025 Guide)</span>
           </nav>
 
           {/* Championship Cover Image */}
