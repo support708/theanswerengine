@@ -5687,19 +5687,27 @@
   },
   {
     "id": 260,
-    "title": "how-to-get-cited-by-ai-search",
+    "title": "How to Get Cited by AI Search: The Complete Local Business Guide",
     "slug": "how-to-get-cited-by-ai-search",
-    "excerpt": "AI search engines like ChatGPT, Perplexity, Claude, and Google AI cite businesses based on specific signals. Here is exactly what drives citations and how to build them systematically.",
+    "excerpt": "AI engines cite local businesses on six weighted signals \u2014 question-mirror, schema, mention density, definition-first openings, freshness, and entity-graph. A business scoring on four of six wins citation on three or four engines simultaneously. The complete six-signal stack, the schema composite that fires the ranker first, and the 90-day measurement loop.",
     "category": "AEO Strategy",
-    "author": "The Answer Engine",
-    "readTime": "8 min read",
+    "author": "Justin Borges",
+    "readTime": "16 min",
     "image": "/blog/how-to-get-cited-by-ai-search.webp",
     "publishDate": "2026-05-31",
-    "lastModified": "2026-05-31",
+    "lastModified": "2026-06-07",
     "featured": false,
     "tags": [
       "AEO",
-      "AI Search"
+      "AI Search",
+      "Local Business",
+      "Citation Signals",
+      "Schema Stack",
+      "ChatGPT",
+      "Perplexity",
+      "Claude",
+      "Gemini",
+      "Google AI Overviews"
     ]
   },
   {
