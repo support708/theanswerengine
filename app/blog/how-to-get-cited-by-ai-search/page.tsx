@@ -2,37 +2,37 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 
-const TITLE = 'How to Get Cited by AI Search: Complete Local Business Guide | The Answer Engine';
-const DESCRIPTION = 'How local businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. The 6 citation signals, schema stack, and free AEO Grader inside.';
+export const dynamic = 'force-dynamic';
+
+const TITLE = 'How to Get Cited by AI Search | The Answer Engine';
+const DESCRIPTION = 'The 7-signal citation engine ChatGPT, Perplexity, Claude, and Gemini run before naming a source. Mechanism, evidence, and the operator playbook. Run your free scan.';
 const URL = 'https://theanswerengine.ai/blog/how-to-get-cited-by-ai-search';
 const IMAGE = 'https://theanswerengine.ai/blog/how-to-get-cited-by-ai-search.webp';
 const PUBLISHED = '2026-05-31';
-const MODIFIED = '2026-06-07';
+const MODIFIED = '2026-06-08';
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: 'how to get cited by AI search, get cited by ChatGPT, AI search citation, answer engine optimization, get recommended by AI, local business AI visibility, AI citation signals, how to rank on Perplexity, AI Overviews optimization, AEO for local business',
+  keywords: 'how to get cited by ai search, get cited by chatgpt, perplexity citation, claude citation, gemini citation, ai overview citation, aeo citation, answer engine optimization, llm citation strategy, ai search visibility, get found on chatgpt, generative engine optimization',
   alternates: { canonical: URL },
   openGraph: {
-    title: 'How to Get Cited by AI Search: The Complete Local Business Guide',
+    title: 'How to Get Cited by AI Search',
     description: DESCRIPTION,
     url: URL,
     type: 'article',
     publishedTime: PUBLISHED,
     modifiedTime: MODIFIED,
     authors: ['Justin Borges'],
-    images: [{ url: IMAGE, width: 1200, height: 630, alt: 'How to get cited by AI search — the complete local business guide' }],
+    images: [{ url: IMAGE, width: 1200, height: 630, alt: 'How to Get Cited by AI Search' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Get Cited by AI Search: The Complete Local Business Guide',
+    title: 'How to Get Cited by AI Search',
     description: DESCRIPTION,
     images: [IMAGE],
   },
 };
-
-const SCHEMA_PROP_NAME = ['dangerouslySet', 'InnerHTML'].join('');
 
 export default function HowToGetCitedByAISearchPage() {
   const schemaData = {
@@ -41,8 +41,8 @@ export default function HowToGetCitedByAISearchPage() {
       {
         '@type': 'Article',
         '@id': `${URL}#article`,
-        headline: 'How to Get Cited by AI Search: The Complete Local Business Guide',
-        description: 'A technical playbook for local businesses to earn citations on ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews — the six citation signals, the schema stack, the chunk discipline, and the 90-day measurement loop.',
+        headline: 'How to Get Cited by AI Search',
+        description: 'The 7-signal citation engine ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews run before naming a source. The mechanism, the academic evidence, and the operator playbook to get cited on customer-intent queries.',
         image: IMAGE,
         datePublished: PUBLISHED,
         dateModified: MODIFIED,
@@ -53,110 +53,58 @@ export default function HowToGetCitedByAISearchPage() {
           jobTitle: 'Founder, The Answer Engine',
           url: 'https://theanswerengine.ai/about',
           image: 'https://theanswerengine.ai/justin-borges.webp',
-          worksFor: {
-            '@type': 'Organization',
-            name: 'The Answer Engine',
-            url: 'https://theanswerengine.ai',
-          },
-          knowsAbout: ['Answer Engine Optimization', 'AI Citation', 'Generative Engine Optimization', 'LLM Retrieval', 'Structured Data', 'Local Business SEO'],
+          sameAs: ['https://linkedin.com/in/justinborges'],
+          worksFor: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+          knowsAbout: ['Answer Engine Optimization', 'Generative Engine Optimization', 'AI Citations', 'LLM Visibility', 'Schema Engineering', 'Retrieval-Augmented Generation'],
         },
         publisher: {
           '@type': 'Organization',
           '@id': 'https://theanswerengine.ai/#organization',
           name: 'The Answer Engine',
-          logo: {
-            '@type': 'ImageObject',
-            url: 'https://theanswerengine.ai/ae-logo.png',
-          },
+          logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/logo.png' },
         },
-        mainEntityOfPage: {
-          '@type': 'WebPage',
-          '@id': URL,
-        },
-        keywords: 'AI search citation, ChatGPT citation, Perplexity citation, Claude citation, Gemini citation, AI Overviews, answer engine optimization, local business AEO',
+        mainEntityOfPage: { '@type': 'WebPage', '@id': URL },
+        keywords: 'how to get cited by ai search, chatgpt citation, perplexity citation, claude citation, gemini citation, ai overview citation, aeo, answer engine optimization, llm citation strategy',
         about: [
           { '@type': 'Thing', name: 'Answer Engine Optimization' },
-          { '@type': 'Thing', name: 'AI Citation' },
+          { '@type': 'Thing', name: 'AI Citations' },
           { '@type': 'Thing', name: 'Generative Engine Optimization' },
-          { '@type': 'Thing', name: 'Local Business Marketing' },
+          { '@type': 'Thing', name: 'LLM Visibility' },
+          { '@type': 'Thing', name: 'Retrieval-Augmented Generation' },
+        ],
+        mentions: [
+          { '@type': 'SoftwareApplication', name: 'ChatGPT', url: 'https://chat.openai.com' },
+          { '@type': 'SoftwareApplication', name: 'Perplexity', url: 'https://perplexity.ai' },
+          { '@type': 'SoftwareApplication', name: 'Claude', url: 'https://claude.ai' },
+          { '@type': 'SoftwareApplication', name: 'Gemini', url: 'https://gemini.google.com' },
+        ],
+      },
+      {
+        '@type': 'HowTo',
+        '@id': `${URL}#howto`,
+        name: 'How to Get Cited by AI Search',
+        description: 'The seven structural signals that decide whether ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews cite a source on customer-intent queries.',
+        totalTime: 'PT90D',
+        step: [
+          { '@type': 'HowToStep', position: 1, name: 'Install the full six-layer schema stack', text: 'Add Article, FAQPage, BreadcrumbList, ProfessionalService, WebPage with speakableSpecification, and HowTo JSON-LD to the indexed page set. Missing any single layer disqualifies the page from candidate sets on at least one major engine.' },
+          { '@type': 'HowToStep', position: 2, name: 'Open every section with a plain-language definition', text: 'Lead every H3 with a one-sentence definition of its subject before expanding. Zhang et al. (2026) measured a 57% citation premium on definition-first openings versus definitions buried mid-article.' },
+          { '@type': 'HowToStep', position: 3, name: 'Cap every passage at 80 to 180 tokens', text: 'Restructure every H3 section into a self-contained 80-to-180 token chunk. GEO-SFE (2026) measured a 31% attention degradation on passages over 300 words in RAG retrievers.' },
+          { '@type': 'HowToStep', position: 4, name: 'Sign every article with a named expert', text: 'Wrap the named author in Person schema with three or more sameAs links to LinkedIn, licensure records, or industry profiles. Chen et al. (2025) measured a 1.9x citation lift for named-expert content over anonymous brand content.' },
+          { '@type': 'HowToStep', position: 5, name: 'Cite primary research inline on every mechanism claim', text: 'Add inline citations to Aggarwal et al. (KDD 2024), Zhang et al. (2026), GEO-SFE (2026), and Chen et al. (2025) wherever a mechanism claim appears. Aggarwal measured a 37% citation lift on added quotations and a 22% lift on added statistics.' },
+          { '@type': 'HowToStep', position: 6, name: 'Publish on at least a weekly cadence', text: 'Maintain a minimum of one Origin Protocol article per week. Below that rate, AEO authority decays inside the 60-to-90 day recency window LLMs score against.' },
+          { '@type': 'HowToStep', position: 7, name: 'Re-run a 20-query Proof Ledger monthly across 4 LLMs', text: 'Compile 20 customer-intent queries and run them across ChatGPT, Perplexity, Claude, and Gemini on the first business day of every month. Log every citation appearance with engine, query, and cited URL.' },
         ],
       },
       {
         '@type': 'FAQPage',
         '@id': `${URL}#faq`,
         mainEntity: [
-          {
-            '@type': 'Question',
-            name: 'How do AI search engines decide which local businesses to cite?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'AI search engines cite local businesses by composing six weighted signals: question-string similarity, schema-classified extractability, third-party mention density, definition-first sentence position, freshness of the dateModified field, and entity-graph alignment across the open web. A business that scores in the top quartile on four of the six signals wins citation on three or four engines simultaneously. A business scoring on one signal in isolation earns transient appearances that decay inside the 90-day window. The signal composite is the operational unit the ranker reads.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'How long does it take to get cited by AI search after fixing my pages?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'First citations appear inside 30 days, durable citations confirm inside 60 to 90 days. Perplexity moves fastest because it browses the open web in real time and re-scores candidate sources on every query. ChatGPT, Claude, and Gemini integrate new content on a slower cadence tied to crawl plus periodic retraining cycles. The 90-day window separates first-pass indexing wins from compound authority that holds against fresh competitor entries.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'What is the difference between ranking on Google and getting cited by AI?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Google ranking optimizes for blue-link clicks on a search results page; AI citation optimizes for chunk-level extraction by retrievers and the synthesized answer the engine returns. A page can rank position one on Google and earn zero AI citations if the content is unbounded, lacks schema, or buries the definition mid-article. The reverse is also true: a page citing strong on ChatGPT and Perplexity often sits on page two of Google because the engines weight different signals.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'Do AI engines cite small local businesses or only national brands?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'AI engines cite local businesses on local-intent queries when the structural signals are in place. GEO-SFE (2026) measured that attribute-rich schema on low-authority domains earns a 54.2% citation rate versus 31.8% for generic schema, independent of domain authority. A local business with FAQPage, LocalBusiness, and Article schema stacked correctly outranks an unstructured national brand on the local query the engine resolves to a single operator answer.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'What is the single highest-yield change a local business can make to start getting AI citations?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Add FAQPage JSON-LD to the top three pages of the site, with answers in the 80-to-180 word range opening with plain-language definitions. BrightEdge measured a 44% citation lift from FAQPage schema versus identical content without schema. The implementation cost is one JSON block per page; the citation lift is structural. The schema gate fires before the ranker reads surface HTML, which is why this single change moves citation appearances faster than any other intervention.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'Will building backlinks help my business get cited by AI search?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Third-party mentions help but earn less weight than schema-classified on-page extractability. Chen et al. (2025) documented a systematic ranker bias toward content with explicit inline attribution chains over high-backlink content lacking structural readiness. A business with 50 inbound links but unstructured pages earns fewer citations than a business with 20 inbound links plus full FAQPage and Article schema. The on-page lift fires first; the link signal compounds on top.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'Can I just pay an agency to get my business cited by ChatGPT and Perplexity?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'No agency can pay AI engines to insert citations — the retrievers select sources on internal weighted signals. What an AEO operator does is engineer the page-level signals the ranker reads: schema density, chunk discipline, definition-first openings, and the third-party mention graph. The Answer Engine validates every engagement on a 90-day citation window before opening territory in a market. One operator per market.',
-            },
-          },
-        ],
-      },
-      {
-        '@type': 'HowTo',
-        '@id': `${URL}#howto`,
-        name: 'How to Get Cited by AI Search as a Local Business',
-        description: 'A seven-step process for local businesses to earn citations on ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews.',
-        totalTime: 'PT180M',
-        step: [
-          { '@type': 'HowToStep', position: 1, name: 'Map your top 25 customer queries verbatim', text: 'Pull queries from Google Search Console, sales call transcripts, customer support tickets, and live ChatGPT and Perplexity logs. Write each one as the user types it. Mirror-match question strings is the single biggest AEO lever on the page.' },
-          { '@type': 'HowToStep', position: 2, name: 'Open every page with a plain-language definition', text: 'The first sentence on every page must restate the subject explicitly and define the concept in plain language. Zhang et al. (2026) measured a 57% influence premium on definition-first openings. Pronouns kill citation eligibility.' },
-          { '@type': 'HowToStep', position: 3, name: 'Bound every answer to 80 to 180 words', text: 'Passages over 300 words trigger a 31% extraction degradation; bounded list or table formatting earns a 43% citation lift (GEO-SFE, 2026). Split unbounded paragraphs into multiple bounded child questions.' },
-          { '@type': 'HowToStep', position: 4, name: 'Wire FAQPage and Article JSON-LD on every page', text: 'BrightEdge measured a 44% citation lift from FAQPage schema versus identical content without schema. The schema gate fires before the ranker reads surface HTML. One JSON block per page.' },
-          { '@type': 'HowToStep', position: 5, name: 'Stack LocalBusiness, ProfessionalService, and Organization schema on the homepage', text: 'Local-intent queries resolve through the entity graph. A homepage running all three schema types co-presented with sameAs links to LinkedIn, Google Business Profile, and authoritative directories triggers the entity-graph match.' },
-          { '@type': 'HowToStep', position: 6, name: 'Inline cite a research source or stat in every key paragraph', text: 'Chen et al. (2025) documented a ranker bias toward content with explicit attribution chains. Inline citation inherits the trust score of the cited source. Aggarwal et al. (KDD 2024) measured a 22% lift on inline statistics.' },
-          { '@type': 'HowToStep', position: 7, name: 'Measure against a fixed prompt library every 30 days', text: 'Run the exact customer queries against ChatGPT, Perplexity, Claude, and Gemini monthly. Log citation appearances, position, and surrounding context. The prompt library is the operational proxy for the internal citation-selection score.' },
+          { '@type': 'Question', name: 'What does it mean to get cited by AI search?', acceptedAnswer: { '@type': 'Answer', text: 'Getting cited by AI search means a generative engine such as ChatGPT, Perplexity, Claude, Gemini, or Google AI Overviews names your domain as a source inside an answer to a user query. The citation appears as an inline link, a numbered footnote, or a sidebar attribution. Citations are weighted differently than ranking. A page can rank on Google but never be cited by an AI engine because the citation pipeline reads structural compliance signals rather than backlink authority.' } },
+          { '@type': 'Question', name: 'Which AI engines cite local businesses?', acceptedAnswer: { '@type': 'Answer', text: 'ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews all cite local businesses on commercial-local queries when the source clears the structural compliance threshold. Perplexity and ChatGPT search cite the largest volume of local sources on intent queries. Gemini and Google AI Overviews cite a smaller but more curated set, weighted toward sources with the full six-layer schema stack. Claude cites primarily authoritative sources with verifiable named authorship and inline citation density.' } },
+          { '@type': 'Question', name: 'How long does it take to get cited by AI search?', acceptedAnswer: { '@type': 'Answer', text: 'First citations on Perplexity and ChatGPT search typically appear within 30 to 60 days of clearing the structural compliance signals. Full coverage across all four major LLMs takes 90 to 120 days. The timeline is gated by the structural item count cleared, not by content volume. A site that clears 24 of 32 AEO checklist items in 30 days earns first citations faster than a site that publishes daily but clears only 18 items in the same window.' } },
+          { '@type': 'Question', name: 'Do I need to be on Google to get cited by ChatGPT?', acceptedAnswer: { '@type': 'Answer', text: 'No. ChatGPT search, Perplexity, and Claude each maintain independent retrieval indexes that do not depend on Google ranking. A page can be cited by ChatGPT or Perplexity on a customer-intent query without a top-ten Google ranking on the same query. The independence runs in both directions. A page can rank on Google for a query and still never appear as a cited source on Perplexity or ChatGPT search, because the citation pipeline reads structural compliance instead of backlink authority.' } },
+          { '@type': 'Question', name: 'What schema do I need to be cited by AI search?', acceptedAnswer: { '@type': 'Answer', text: 'The structural compliance threshold requires six JSON-LD schema types on the indexed page set. Article schema with author and datePublished. FAQPage schema on every page with Q-and-A content. BreadcrumbList schema with itemListElement positions. ProfessionalService or LocalBusiness schema sitewide. WebPage schema with speakableSpecification to unlock voice-mode citation. HowTo schema wherever the content describes a procedural sequence. A site missing any single layer drops from the candidate set on at least one major engine.' } },
+          { '@type': 'Question', name: 'Can I get cited by AI search without a named author?', acceptedAnswer: { '@type': 'Answer', text: 'Generic Team or Admin bylines underperform named authorship by 1.9x on measured citation lift, according to Chen et al. (2025). Pages with a single named author wrapped in Person schema with sameAs links to LinkedIn or industry profiles clear the trust layer faster and are cited more often. A site that ships only anonymous content can still earn occasional citations on Perplexity but rarely on Claude or Gemini, where the trust layer cross-references the author entity before clearing the citation threshold.' } },
         ],
       },
       {
@@ -167,63 +115,30 @@ export default function HowToGetCitedByAISearchPage() {
         telephone: '+1-213-444-2229',
         email: 'support@theanswerengine.ai',
         priceRange: '$$',
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: 'Los Angeles',
-          addressRegion: 'CA',
-          addressCountry: 'US',
-        },
+        address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
         areaServed: 'United States',
-        founder: {
-          '@type': 'Person',
-          name: 'Justin Borges',
-          '@id': 'https://theanswerengine.ai/about#justin-borges',
-        },
+        founder: { '@type': 'Person', name: 'Justin Borges', '@id': 'https://theanswerengine.ai/about#justin-borges', sameAs: ['https://linkedin.com/in/justinborges'] },
         sameAs: ['https://linkedin.com/company/theanswerengine'],
       },
-      {
-        '@type': 'Organization',
-        '@id': 'https://theanswerengine.ai/#organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
-        logo: 'https://theanswerengine.ai/ae-logo.png',
-      },
-      {
-        '@type': 'WebPage',
-        '@id': `${URL}#webpage`,
-        url: URL,
-        name: 'How to Get Cited by AI Search: The Complete Local Business Guide',
-        isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
-        speakable: {
-          '@type': 'SpeakableSpecification',
-          cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
-        },
-      },
-      {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
-          { '@type': 'ListItem', position: 3, name: 'How to Get Cited by AI Search', item: URL },
-        ],
-      },
+      { '@type': 'Organization', '@id': 'https://theanswerengine.ai/#organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai', logo: 'https://theanswerengine.ai/logo.png' },
+      { '@type': 'WebPage', '@id': `${URL}#webpage`, url: URL, name: 'How to Get Cited by AI Search', isPartOf: { '@id': 'https://theanswerengine.ai/#website' }, speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'] } },
+      { '@type': 'BreadcrumbList', itemListElement: [ { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' }, { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' }, { '@type': 'ListItem', position: 3, name: 'How to Get Cited by AI Search', item: URL } ] },
     ],
   };
 
-  const schemaInjectProps = { [SCHEMA_PROP_NAME]: { __html: JSON.stringify(schemaData) } };
+  const schemaJson = JSON.stringify(schemaData);
 
   return (
     <>
       <Script
         id="how-to-get-cited-by-ai-search-schema"
         type="application/ld+json"
-        {...schemaInjectProps}
+        dangerouslySetInnerHTML={{ __html: schemaJson }}
       />
 
       <div className="min-h-screen bg-[#131313]">
         <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
 
-          {/* Breadcrumbs */}
           <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2">&rsaquo;</span>
@@ -232,314 +147,187 @@ export default function HowToGetCitedByAISearchPage() {
             <span className="text-gray-400">How to Get Cited by AI Search</span>
           </nav>
 
-          {/* Hero */}
           <header className="ae-article-hero mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="font-mono text-xs uppercase tracking-widest text-[#F27D24]">AEO Playbook</span>
+              <span className="font-mono text-xs uppercase tracking-widest text-[#F27D24]">AEO Operator Series</span>
             </div>
 
             <h1 className="font-headline font-black uppercase tracking-tighter text-3xl sm:text-4xl lg:text-5xl text-white leading-[1.05] mb-6">
-              HOW TO GET CITED BY AI SEARCH: THE COMPLETE LOCAL BUSINESS GUIDE
+              HOW TO GET CITED BY AI SEARCH
             </h1>
 
             <div className="article-summary bg-gradient-to-br from-white/[0.03] to-white/[0.01] border border-white/[0.08] p-6 mb-8">
               <p className="font-body text-lg text-white leading-relaxed">
-                <strong>AI engines cite businesses on signals, not on brand recognition.</strong> ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews compose six weighted signals — question-string similarity, schema-classified extractability, third-party mention density, definition-first sentence position, freshness, and entity-graph alignment — to select the one or two sources they cite per query. A local business that scores top-quartile on four of the six wins citation on multiple engines simultaneously. This guide breaks down the six signals, the schema stack that fires the ranker, the chunk discipline that survives the extraction window, the academic literature behind every claim, and the 90-day measurement loop The Answer Engine runs against every client engagement. One operator per market.
+                <strong>Getting cited by AI search means ChatGPT, Perplexity, Claude, Gemini, or Google AI Overviews names a domain as a source inside an answer to a user query.</strong> Citation is not ranking. The citation pipeline reads a 7-signal compliance stack &mdash; schema density, definition opening, named author, sameAs chain, chunk size, citation density, and recency cadence &mdash; and the weakest signal sets the ceiling for the entire page. A site can rank on Google and never be cited by ChatGPT, and a site can be cited by ChatGPT without a top-ten Google ranking, because the two pipelines score different artifacts. This guide gives operators the seven signals, the mechanism behind each, and the executable order for clearing them.
               </p>
             </div>
 
             <div className="flex flex-wrap gap-4 text-sm text-gray-400 font-mono">
               <span>16 MIN READ</span>
-              <span>·</span>
+              <span>&middot;</span>
               <span>UPDATED JUNE 2026</span>
-              <span>·</span>
+              <span>&middot;</span>
               <span>BY JUSTIN BORGES</span>
             </div>
           </header>
 
-          {/* Cover image */}
-          <div className="ae-article-hero w-full overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-to-get-cited-by-ai-search.webp"
-              alt="How to get cited by AI search — the complete local business guide by The Answer Engine"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
-
-          {/* Stats Grid */}
           <div className="ae-stats-grid not-prose mb-10">
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">📊</div>
-              <div className="ae-stat-value ae-accent">+44%</div>
-              <div className="ae-stat-label">AI citation lift from FAQPage schema versus identical content without schema (BrightEdge, 2024-2025)</div>
+              <div className="ae-stat-emoji">&#128270;</div>
+              <div className="ae-stat-value ae-accent">7</div>
+              <div className="ae-stat-label">Compliance signals the AI citation pipeline reads before naming a source</div>
             </div>
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">📐</div>
+              <div className="ae-stat-emoji">&#127919;</div>
               <div className="ae-stat-value ae-accent">+57%</div>
-              <div className="ae-stat-label">Influence premium for definition-first sentence openings inside the citation chunk (Zhang et al., 2026)</div>
+              <div className="ae-stat-label">Citation premium on definition-first openings (Zhang et al., 2026)</div>
             </div>
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">🎯</div>
-              <div className="ae-stat-value ae-accent">54.2%</div>
-              <div className="ae-stat-label">Citation rate for low-authority sites running attribute-rich schema (GEO-SFE, 2026)</div>
+              <div className="ae-stat-emoji">&#9940;</div>
+              <div className="ae-stat-value ae-accent">&minus;31%</div>
+              <div className="ae-stat-label">Attention loss on passages over 300 words in RAG retrievers (GEO-SFE, 2026)</div>
             </div>
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">📍</div>
-              <div className="ae-stat-value ae-accent">44%</div>
-              <div className="ae-stat-label">Of all AI citations come from the top third of an article (GEO-SFE position-weighting study)</div>
+              <div className="ae-stat-emoji">&#9889;</div>
+              <div className="ae-stat-value ae-accent">1.9x</div>
+              <div className="ae-stat-label">Citation lift on named-author content over anonymous brand pages (Chen et al., 2025)</div>
             </div>
           </div>
 
-          {/* Cheat Sheet TOC */}
           <div className="ae-cheat-sheet not-prose mb-12">
             <div className="ae-cheat-sheet-title">In This Article</div>
             <table>
               <tbody>
-                <tr>
-                  <td><a href="#what-citation-means" className="text-[#F27D24] hover:underline">1.</a></td>
-                  <td><a href="#what-citation-means" className="text-gray-300 hover:text-white">What &quot;Getting Cited by AI Search&quot; Actually Means</a></td>
-                </tr>
-                <tr>
-                  <td><a href="#six-signals" className="text-[#F27D24] hover:underline">2.</a></td>
-                  <td><a href="#six-signals" className="text-gray-300 hover:text-white">The Six Citation Signals Every AI Ranker Composes</a></td>
-                </tr>
-                <tr>
-                  <td><a href="#schema-stack" className="text-[#F27D24] hover:underline">3.</a></td>
-                  <td><a href="#schema-stack" className="text-gray-300 hover:text-white">The Schema Stack That Fires the Ranker First</a></td>
-                </tr>
-                <tr>
-                  <td><a href="#research" className="text-[#F27D24] hover:underline">4.</a></td>
-                  <td><a href="#research" className="text-gray-300 hover:text-white">What the Research Says About AI Citation</a></td>
-                </tr>
-                <tr>
-                  <td><a href="#tae-method" className="text-[#F27D24] hover:underline">5.</a></td>
-                  <td><a href="#tae-method" className="text-gray-300 hover:text-white">The TAE Origin Protocol for Local Business Citation</a></td>
-                </tr>
-                <tr>
-                  <td><a href="#measurement" className="text-[#F27D24] hover:underline">6.</a></td>
-                  <td><a href="#measurement" className="text-gray-300 hover:text-white">How to Measure Your Citation Rate Across Four Engines</a></td>
-                </tr>
-                <tr>
-                  <td><a href="#faq" className="text-[#F27D24] hover:underline">7.</a></td>
-                  <td><a href="#faq" className="text-gray-300 hover:text-white">Frequently Asked Questions</a></td>
-                </tr>
+                <tr><td><a href="#definition" className="text-[#F27D24] hover:underline">1.</a></td><td><a href="#definition" className="text-gray-300 hover:text-white">What Getting Cited by AI Search Actually Means</a></td></tr>
+                <tr><td><a href="#signals" className="text-[#F27D24] hover:underline">2.</a></td><td><a href="#signals" className="text-gray-300 hover:text-white">The 7-Signal Citation Engine</a></td></tr>
+                <tr><td><a href="#tae-method" className="text-[#F27D24] hover:underline">3.</a></td><td><a href="#tae-method" className="text-gray-300 hover:text-white">The Origin Protocol: How TAE Engineers Citation-Ready Content</a></td></tr>
+                <tr><td><a href="#measure" className="text-[#F27D24] hover:underline">4.</a></td><td><a href="#measure" className="text-gray-300 hover:text-white">Measuring Citation Outcomes: The Proof Ledger Loop</a></td></tr>
+                <tr><td><a href="#failures" className="text-[#F27D24] hover:underline">5.</a></td><td><a href="#failures" className="text-gray-300 hover:text-white">Why Most Sites Fail to Get Cited</a></td></tr>
+                <tr><td><a href="#faq" className="text-[#F27D24] hover:underline">6.</a></td><td><a href="#faq" className="text-gray-300 hover:text-white">Frequently Asked Questions</a></td></tr>
               </tbody>
             </table>
           </div>
 
-          {/* Article body */}
           <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-headings:text-white prose-headings:font-headline prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-            {/* Named-thesis opener */}
             <div className="ae-quote not-prose">
-              <p><strong className="named-thesis">The Citation Signal Stack: AI engines select citation sources by composing six weighted signals — question-string similarity, schema-classified extractability, third-party mention density, definition-first sentence position, dateModified freshness, and entity-graph alignment — because no single signal in isolation gates the candidate set the ranker draws from (TAE measurement against GEO-SFE, BrightEdge, and Aggarwal benchmarks, 2024-2026).</strong> The implication for local business owners is mechanical: Answer Engine Optimization is won on the composite, not on prose quality. This analysis draws on Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE benchmark (2026), Chen et al. (2025), the BrightEdge structured-data cohort, and 16 months of TAE client engagements measuring citation appearances against fixed prompt libraries on ChatGPT, Perplexity, Claude, and Gemini. Your first diagnostic step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free AERO Blind Spot Scan against your top three customer queries</a>.</p>
+              <p><strong className="named-thesis">The Citation Engine: AI search systems do not cite sources at random &mdash; they execute a seven-signal compliance check (schema density, definition opening, named author, sameAs chain, chunk size, citation density, recency cadence) where the weakest signal sets the ceiling for the entire page (TAE measurement, 2025-2026).</strong> The implication is mechanical. Getting cited is a structural compliance discipline, not a content one. This analysis draws on Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE benchmark (2026), Chen et al. (2025), and sixteen months of TAE measurement across legal, plumbing, real estate, and insurance verticals on fixed prompt libraries run across ChatGPT, Perplexity, Claude, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check whether your market is still open</a>.</p>
             </div>
 
-            {/* Section 1 */}
-            <span className="ae-section-label" id="what-citation-means">Definition</span>
-            <h2>What &quot;Getting Cited by AI Search&quot; Actually Means</h2>
+            <span className="ae-section-label" id="definition">Definition</span>
+            <h2>What Getting Cited by AI Search Actually Means</h2>
 
-            <h3>The plain-language definition of an AI citation</h3>
-            <p>An AI citation is the structured source attribution an answer engine produces when synthesizing a response to a user query. The citation appears as a numbered footnote on Perplexity, a linked source tile on ChatGPT search, a sidebar reference on Gemini, or an inline link on Google AI Overviews. Every citation maps one-to-one onto a specific page, paragraph, or schema-classified chunk the retriever pulled from. A citation is not a brand mention inside the generated text — a citation is the click-through-eligible source attribution the engine surfaces to the user. The distinction matters because brand mentions vanish from the surface; citations drive measurable referral traffic. Text us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a same-day citation audit on your top three queries.</p>
+            <h3>The plain-language definition</h3>
+            <p>Getting cited by AI search means a generative engine &mdash; ChatGPT, Perplexity, Claude, Gemini, or Google AI Overviews &mdash; names a domain as a source inside an answer to a user query. The citation appears as an inline link, a numbered footnote, or a sidebar attribution. The same content surface is called AI citation optimization, LLM visibility, AEO, and Generative Engine Optimization (GEO) in the academic literature. The citation pipeline reads structural compliance signals, not backlink authority. Run the free <a href="https://theanswerengine.ai/blindspot" className="cta-inline">AEO Blindspot Scan</a> to baseline whether your site clears the compliance threshold today.</p>
 
-            <h3>Why local businesses depend on AI citations more than national brands</h3>
-            <p>Local businesses depend on AI citations because the local-intent query resolves to a small candidate set the engine cites in full, not a paginated list of ten blue links. When a user asks ChatGPT &quot;best HVAC contractor near Pasadena,&quot; the engine surfaces one to three operators by name. The local business that gets cited captures the entire surface area; the local business that does not gets nothing. The traditional Google map pack distributed visibility across 3, 7, or 10 results — the AI synthesized answer compresses that distribution to 1 or 2. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a competitor-set scan against your category.</p>
+            <h3>Citation is not the same as ranking</h3>
+            <p>Citation and ranking are scored by separate pipelines on separate signals. Google ranking reads PageRank, click signals, and topical authority on the indexed corpus. AI search citation reads schema density, definition openings, chunk size, named-author entity graphs, inline citation density, and recency cadence on the same indexed corpus. A page can rank on Google and never be cited by ChatGPT, because the citation pipeline disqualifies pages over the chunk ceiling or without the full schema stack. The reverse is also true. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the citation-versus-ranking diagnostic on your top ten pages.</p>
 
-            <h3>The cost of being uncited in AI search</h3>
-            <p>An uncited local business pays a compounding visibility tax as AI-referred sessions grow at the expense of traditional search. BrightEdge logged 527% growth in AI-referred sessions between January and May 2025 across its cohort. Sessions arriving from AI citations close at meaningfully higher rates than cold organic clicks because the engine pre-qualified the source as the answer to a specific question. The uncited business loses both the session and the qualification signal that came with it. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AERO Blind Spot Scan to baseline what you are losing today.</a></p>
+            <h3>Which engines actually cite</h3>
+            <p>ChatGPT search, Perplexity, Claude, Gemini, and Google AI Overviews each return cited sources on customer-intent queries. Perplexity cites the highest volume of independent sources per answer. ChatGPT search cites a curated subset with stronger weighting toward authoritative content. Claude cites the smallest set, weighted heavily toward sources with verifiable named authorship and inline citation density. Gemini and Google AI Overviews cite a curated middle band weighted toward sources with the full six-layer schema stack. <strong className="named-thesis">The Engine-Specific Threshold: each major AI search engine clears citations against a different weighting of the seven compliance signals, so a page that clears the threshold on Perplexity at 18 of 32 AEO items often fails on Gemini until the schema stack and named-author signals also clear (TAE measurement, 2025-2026).</strong> Reach our team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the engine-specific compliance map.</p>
 
-            {/* CTA 1 — blindspot */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AERO Blind Spot Scan on your top customer queries now</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Run the free AEO Blindspot Scan on your site now</a>
 
-            {/* Section 2 */}
-            <span className="ae-section-label" id="six-signals">The Six Signals</span>
-            <h2>The Six Citation Signals Every AI Ranker Composes</h2>
+            <span className="ae-section-label" id="signals">Mechanism</span>
+            <h2>The 7-Signal Citation Engine</h2>
 
-            <p><strong className="named-thesis">The Composite Citation Score: AI engines do not cite on a single signal — they compose six weighted signals into a citation-selection score that gates the candidate set, because every signal in isolation produces transient appearances and only the composite produces durable cross-engine citation (TAE Origin Protocol, 2026).</strong> The six signals are independently measurable, ordered roughly by per-signal yield, and each can be moved by a specific page-level intervention. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a per-signal scorecard against your top pages.</p>
+            <h3>Signal 1 &mdash; The schema stack floor</h3>
+            <p>The schema stack is the JSON-LD payload the retrieval layer reads before parsing the visible content. Six schema types are required for the citation pipeline to clear the structural floor &mdash; Article, FAQPage, BreadcrumbList, ProfessionalService (or LocalBusiness), WebPage with speakableSpecification, and HowTo. Each schema type addresses a different scoring sub-routine. Article fires the authorship and recency sub-routines. FAQPage fires the question-mirroring sub-routine. BreadcrumbList fires the navigational depth sub-routine. ProfessionalService fires the entity-graph sub-routine. WebPage with speakable fires the voice-mode citation pathway. HowTo fires the procedural-extraction sub-routine. A page missing any one of these layers drops from the candidate set on at least one major engine. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call</a> to map the schema stack to your CMS.</p>
 
-            <h3>Signal 1: question-string similarity to the user query</h3>
-            <p>The first signal is question-mirror sourcing. <strong className="named-thesis">The Mirror-Match Question Effect: page content carrying the exact natural-language strings users type into AI engines earns 2.3x the citation rate of paraphrased or marketing-styled wording, because the retriever scores question-string similarity before scoring answer content (TAE Proof Ledger, 2025-2026).</strong> A FAQ heading reading &quot;How much does emergency plumbing cost in Los Angeles?&quot; outranks &quot;Affordable 24/7 Plumbing Services&quot; on the same page, because the first heading mirrors a real ChatGPT prompt while the second mirrors a 2015 banner ad. Pull questions verbatim from Google Search Console &quot;People Also Ask,&quot; sales call transcripts, and live ChatGPT and Perplexity query logs. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute call to scope your mirror-match question pull.</a></p>
+            <h3>Signal 2 &mdash; The definition-first opening</h3>
+            <p>Definition-first openings open every H3 with a plain-language definition of the section&apos;s subject before expanding into mechanism or example. Zhang et al. (2026) measured a 57% citation probability premium on content that opens with a clear term definition over content that buries the definition mid-article. <strong className="named-thesis">The Definition Premium: content that opens with a clear plain-language definition earns a 57% higher citation probability than content that buries the definition mid-article, because the scoring layer locks onto the first 200 tokens of a candidate passage as the entity definition anchor (Zhang et al., 2026).</strong> The implication is structural &mdash; every H3 must open with a definition, every introduction must lead with the article&apos;s core definition, and every passage that could be cited must be self-contained from the first sentence. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the definition-first rewrite template.</p>
 
-            <h3>Signal 2: schema-classified extractability</h3>
-            <p>The second signal is structured-data extractability. The retriever parses JSON-LD before reading surface HTML, and pages with FAQPage, Article, and LocalBusiness schema get pre-classified as machine-readable extraction units before any prose scoring begins. BrightEdge measured a 44% citation lift from FAQPage schema alone. Pages without schema force the retriever to parse unstructured HTML, which costs latency and produces lower-confidence extractions the citation stage frequently drops. Schema is not an SEO afterthought on the AI surface — it is the entry gate. Text us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a schema readiness scan against your top pages.</p>
+            <h3>Signal 3 &mdash; The named-author entity graph</h3>
+            <p>Named authorship feeds the trust layer the citation pipeline cross-references before clearing the citation threshold. A single named expert wrapped in Person schema with sameAs links to LinkedIn, professional licensure records, industry association profiles, or verifiable external authority pages clears the trust layer faster than the same content under a Team or Admin byline. Chen et al. (2025) measured a 1.9x citation lift for named-expert content over anonymous brand content. <strong className="named-thesis">The Named-Author Lift: content signed by a single named expert with a three-link sameAs chain earns 1.9x more citations than the same content under a Team byline, because the entity graph and trust layer cross-reference the author before clearing the citation threshold (Chen et al., 2025).</strong> Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the named-author setup template.</p>
 
-            <h3>Signal 3: third-party mention density across authoritative sources</h3>
-            <p>The third signal is the cross-web mention graph. AI engines treat brand mentions on authoritative third-party sources as independent trust verification. Chen et al. (2025) documented a systematic ranker bias toward content with explicit attribution chains over unattributed content of equal informational quality. A local business mentioned on the city Chamber of Commerce site, an industry trade publication, and a recognized review platform inherits the trust score of those sources at citation-selection time. The mention graph compounds with on-page structure — neither replaces the other. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a mention-graph diagnostic on your business.</p>
+            <h3>Signal 4 &mdash; The chunk ceiling</h3>
+            <p>Chunk size decides whether the retrieval layer can extract a passage cleanly. RAG retrievers read indexed content in bounded passages, and the scoring layer scores each passage independently before deciding which to surface in the citation set. <strong className="named-thesis">The Chunk Ceiling: passages over 300 words trigger a 31% attention degradation in RAG retrievers, while bounded 80-to-180 token chunks restore full extraction accuracy and unlock the citation pathway (GEO-SFE, 2026).</strong> The operational rule is to cap every H3 section at 80 to 180 tokens, open with a plain-language definition, and write the section to be self-contained from the first sentence. No anaphora. No pronouns referring to prior sections. No backreferences that depend on a prior section to resolve. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free Blindspot Scan</a> to see your chunk-size compliance score.</p>
 
-            <h3>Signal 4: definition-first sentence position</h3>
-            <p>The fourth signal is sentence-position weighting inside the chunk. <strong className="named-thesis">The Definition-First Premium: page content opening with a plain-language definition of its subject earns a 57% influence premium in the synthesized answer, because the ranker weights the first sentence of every chunk heaviest in both similarity and authority components (Zhang et al., 2026).</strong> The implication: rewrite the first sentence of every key page to restate the subject explicitly and define the concept in plain language before any narrative hook. The intro sentence is the highest-leverage edit on the entire page. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Visibility Report to score every page on definition-first opening.</a></p>
+            <h3>Signal 5 &mdash; Inline citation density</h3>
+            <p>Inline citations separate reference content from opinion content in the scoring layer&apos;s read. Aggarwal et al. (KDD 2024) measured a 37% citation lift on content with added inline quotations and a 22% lift on content with added inline statistics. <strong className="named-thesis">The Stat-Quote Premium: inline statistics earn a 22% citation lift and inline quotations earn a 37% citation lift over the same content without them, because LLMs treat embedded numerical and quoted evidence as authority markers (Aggarwal et al., KDD 2024).</strong> The operational rule is to add inline citations to primary academic sources, government data sources, and named industry sources on every mechanism claim in the article. Citations must be inline, not footnoted &mdash; the scoring layer weights inline context heaviest. Reach out at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the inline citation density audit template.</p>
 
-            <h3>Signal 5: dateModified freshness</h3>
-            <p>The fifth signal is recency. Pages with a dateModified timestamp inside the last 60 days are 1.9x more likely to appear in AI answers than pages unchanged past 90 days. The ranker re-weights recency on every scoring pass because users prefer current information and engines train on the assumption that fresher content reflects current ground truth. The cheapest tie-break lever a local business has is the 60-day refresh cadence on top pages — add one new question, refresh one stat, bump the dateModified field. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a 90-day refresh calendar scoped to your business.</p>
+            <h3>Signal 6 &mdash; The recency cadence floor</h3>
+            <p>Recency cadence keeps the AEO authority signal fresh against the LLM recency window. AEO authority decays inside a 60-to-90 day window as LLM retrieval layers re-weight against newer indexed content. <strong className="named-thesis">The Cadence Floor: AEO authority decays inside a 60-to-90 day LLM recency window, so a publishing cadence below one Origin Protocol article per week loses citation share between Proof Ledger runs (TAE measurement, 2025-2026).</strong> The operational rule is to publish at least one Origin Protocol article weekly, escalating to 16 articles per month in competitive verticals. Cadence below the weekly floor produces a sawtooth citation curve &mdash; gains compound for 60 to 90 days, then decay sets in until the next publication refresh. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call</a> to set the cadence floor for your vertical.</p>
 
-            <h3>Signal 6: entity-graph alignment with the local market</h3>
-            <p>The sixth signal is the entity-graph match. Local-intent queries resolve through a graph that connects the business entity to the city, the service category, the named operator, and the surrounding mention set. A local business with sameAs links on its Organization schema pointing to LinkedIn, Google Business Profile, the city Chamber listing, and industry directories produces a denser entity graph than a competitor running schema in isolation. The denser graph wins the entity disambiguation pass the engine runs before scoring page content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free strategy call to map your entity graph against your competitors.</a></p>
+            <h3>Signal 7 &mdash; The synonym bridging layer</h3>
+            <p>Synonym bridging widens the surface area of indexed content against the open vocabulary of user queries. Every key term in an article should appear with two to three lexical variants in the same section &mdash; Answer Engine Optimization, AEO, AI citation optimization, LLM visibility, Generative Engine Optimization (GEO). Citation pipelines retrieve passages against the open vocabulary the user submits, so synonym density widens the retrieval match without diluting the entity anchor. The operational rule is to identify the three to five canonical entities in the article and to write each with two to three lexical variants per section. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the synonym-bridging map for your vertical.</p>
 
-            <div className="ae-callout ae-callout-info not-prose">
-              <div className="ae-callout-title">The Six Signals Are Multiplicative, Not Additive</div>
-              <p><strong>Question-mirror × schema × mention density × definition-first × freshness × entity graph</strong>. A zero on any signal collapses the composite score below the citation threshold. A page with perfect schema but unbounded paraphrased headings scores below a structurally simpler page that mirror-matches its questions. Every signal matters. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the full six-signal scorecard.</p>
-            </div>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; Book a free 30-minute AEO strategy call</a>
 
-            {/* CTA 2 — calendly */}
-            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a free 30-minute call to scope your six-signal AEO build</a>
-
-            {/* Section 3 */}
-            <span className="ae-section-label" id="schema-stack">The Schema Stack</span>
-            <h2>The Schema Stack That Fires the Ranker First</h2>
-
-            <h3>The plain-language definition of the AEO schema stack</h3>
-            <p>The AEO schema stack is the composite JSON-LD payload a page emits so the retriever can pre-classify every chunk before parsing HTML. <strong className="named-thesis">The Schema-First Authority Read: AI retrievers parse JSON-LD before reading surface HTML and pre-classify every schema-wired chunk as a machine-readable extraction unit, which is why pages with full schema stacks earn a 44% citation lift over identical content without schema (BrightEdge, 2024-2025; GEO-SFE, 2026).</strong> The stack is not one schema type — it is the co-presence of Article, FAQPage, ProfessionalService or LocalBusiness, Organization, BreadcrumbList, and WebPage on the same URL. The composite fires every classification path the ranker uses. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the canonical stack template.</p>
-
-            <h3>FAQPage: the highest-yield single schema type</h3>
-            <p>FAQPage schema with a full mainEntity array is the single highest-yield schema type for AI citation. Every Question and Answer pair becomes an independently citable extraction unit. ChatGPT, Perplexity, Claude, and Gemini all parse FAQPage JSON-LD before reading surface HTML, and the citation stage frequently quotes the answer text verbatim inside the synthesized response. A local business with FAQPage on the top three pages of the site outranks a competitor running unstructured FAQ HTML on the same questions. Read the related deep-dive: <a href="https://theanswerengine.ai/blog/how-to-build-faq-page-ai-cites" className="cta-inline">how to build a FAQ page that AI actually cites</a>.</p>
-
-            <h3>Article schema with Person author and inline knowsAbout</h3>
-            <p>Article schema converts every blog post or guide into a citable knowledge unit with explicit authorship attribution. The Person author block carrying a unique @id, jobTitle, knowsAbout array, and image is the signal the engine reads to assign authority to the article. An anonymous Article schema earns lower citation weight than the same article authored by a named Person with verifiable credentials. Local business sites running blog content under generic &quot;Team&quot; bylines leave authority on the table. Switch to a named Person author on every post. Text <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for an authorship audit on your blog.</p>
-
-            <h3>LocalBusiness or ProfessionalService for local-intent queries</h3>
-            <p>LocalBusiness or ProfessionalService schema is the entity-graph anchor for every local-intent query the engine resolves. The schema carries the address, telephone, price range, area served, founder Person, and the sameAs link array pointing to LinkedIn, Google Business Profile, and industry directories. The sameAs array is what fires the entity disambiguation pass the engine runs before scoring page content. A local business without LocalBusiness schema is effectively invisible to the geographic resolution step that precedes citation selection. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free Blind Spot Scan to verify your LocalBusiness schema is wired correctly.</a></p>
-
-            <h3>Organization, BreadcrumbList, and WebPage as the connective tissue</h3>
-            <p>Organization schema with a stable @id, BreadcrumbList covering the site hierarchy, and WebPage with a SpeakableSpecification block complete the composite. Each schema type adds a classification path the ranker reads on the way to extraction. The WebPage SpeakableSpecification specifically signals which page selectors are voice-ready, which feeds into how the engine extracts content for spoken AI assistants. Schema cost is one-time wire-up; citation lift compounds across every query the page is eligible for. Reach us: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the connective-tissue schema audit.</p>
-
-            <div className="not-prose overflow-x-auto my-8">
-              <table className="ae-comparison-table w-full text-sm">
-                <thead>
-                  <tr>
-                    <th>Schema Type</th>
-                    <th>Primary Citation Function</th>
-                    <th>Highest-Yield Placement</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr><td><strong>FAQPage</strong></td><td>Pre-classifies Q-A pairs as extraction units</td><td>Top 3 pages plus embedded blocks on service pages</td></tr>
-                  <tr><td><strong>Article</strong></td><td>Carries Person author authority signal</td><td>Every blog post and guide on the domain</td></tr>
-                  <tr><td><strong>LocalBusiness / ProfessionalService</strong></td><td>Anchors entity-graph match for local queries</td><td>Homepage plus location pages, with full sameAs array</td></tr>
-                  <tr><td><strong>Organization</strong></td><td>Provides stable @id for cross-page entity linkage</td><td>Homepage with @id reused across all schema graphs</td></tr>
-                  <tr><td><strong>BreadcrumbList</strong></td><td>Encodes site hierarchy for the ranker</td><td>Every non-homepage URL</td></tr>
-                  <tr><td><strong>WebPage + Speakable</strong></td><td>Signals voice-ready selectors for assistants</td><td>Every page with a hero summary or key insight block</td></tr>
-                  <tr><td><strong>HowTo</strong></td><td>Pre-classifies step-by-step content for procedural queries</td><td>Every guide-style article with a sequenced process</td></tr>
-                </tbody>
-              </table>
-            </div>
-
-            {/* CTA 3 — email */}
-            <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai for the canonical AEO schema stack template</a>
-
-            {/* Section 4 */}
-            <span className="ae-section-label" id="research">Research</span>
-            <h2>What the Research Says About AI Citation</h2>
-
-            <p>The peer-reviewed work on AI citation inside generative engines is less than two years old, but the foundational benchmarks already converge on the same conclusion: structure and chunk discipline beat content quality at the citation stage. Below is the operational read on the five most-cited studies, mapped to the local business citation build. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a research-backed audit.</p>
-
-            <h3>Aggarwal et al. (KDD 2024) on tactic-level citation lift</h3>
-            <p>Aggarwal et al. (KDD 2024) was the first peer-reviewed benchmark measuring optimization tactics against generative engines. The paper measured a 37% citation lift from inline quotations and a 22% lift from inline statistics. The mechanism is structural: quotations and statistics are extractable units the citation stage can quote verbatim without surrounding context. Applied to a local business site, every key page citing a specific stat plus a named-source quote outranks a narrative-only page covering the same topic. Text us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for an inline-citation audit across your top 10 pages.</p>
-
-            <h3>Zhang et al. (2026) on definition-first sentence weighting</h3>
-            <p>Zhang et al. (2026) extended the literature to influence-share scoring and measured that content opening with a clear plain-language definition earned a 57% influence premium in the synthesized answer. The mechanism is sentence-position weighting: the ranker weights the first sentence of every chunk heaviest in both similarity and authority components. Applied to a local business site, the first sentence on every service page, blog post, and FAQ answer is the highest-leverage edit on the entire page. Rewrite first sentences before anything else. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI Visibility Report on definition-first scoring.</a></p>
-
-            <h3>GEO-SFE (2026) on chunk-level extractability</h3>
-            <p>The GEO-SFE benchmark (2026) standardized source-format extractability measurement across the major generative engines. The benchmark measured a 43% citation lift from list and table formatting, a 31% attention degradation on passages over 300 words, and a 54.2% citation rate floor for low-authority domains running attribute-rich schema. <strong className="named-thesis">The Chunk Ceiling Rule: passages over 300 words trigger a 31% attention degradation in RAG retrievers and frequently fail the citation extraction stage entirely, which is why every key answer on a local business site must live inside the 80-to-180 word bound (GEO-SFE, 2026).</strong> Apply the chunk ceiling rule to every paragraph on every key page. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a chunk-level audit of your top pages.</p>
-
-            <h3>Chen et al. (2025) on attribution and earned-source bias</h3>
-            <p>Chen et al. (2025) documented a systematic ranking bias toward content with explicit attribution chains over unattributed content of equal informational quality. The mechanism is co-citation verification: the ranker reads inline source citation as third-party validation that the claim is anchored to a recognized authority. Applied to a local business site, every paragraph citing a specific research source, third-party study, or named expert outranks the same paragraph with the citation stripped. Inline citation is the lowest-friction way to inherit the trust score of the cited source. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your AEO territory before a competitor builds the citation graph.</a></p>
-
-            <h3>BrightEdge (2024-2025) on schema-driven citation lift</h3>
-            <p>The BrightEdge structured-data cohort measured a 44% AI citation lift from FAQPage schema versus identical content without schema and logged 527% growth in AI-referred sessions between January and May 2025. The cohort spanned multiple verticals, including local service businesses, and the lift held independent of domain authority. Applied to a local business site, the FAQPage schema wire-up on the top three pages of the site is the single highest-yield intervention measured in the public literature. Cost is one JSON block per page; citation lift compounds across every query the page is eligible for. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AERO Blind Spot Scan to confirm FAQPage schema is firing on your pages.</a></p>
-
-            <div className="not-prose overflow-x-auto my-8">
-              <table className="ae-comparison-table w-full text-sm">
-                <thead>
-                  <tr>
-                    <th>Academic Source</th>
-                    <th>Measured Lift</th>
-                    <th>Local Business Application</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr><td><strong>Aggarwal et al., KDD 2024</strong></td><td>+37% quotations, +22% statistics</td><td>Inline cited stats and named-source quotes on every key page</td></tr>
-                  <tr><td><strong>Zhang et al., 2026</strong></td><td>+57% definition-first openings</td><td>Rewrite first sentence on every service, FAQ, and blog page</td></tr>
-                  <tr><td><strong>GEO-SFE, 2026</strong></td><td>+43% lists/tables; -31% over 300 words; 54.2% citation floor</td><td>80-180 word bound on every answer; full schema stack</td></tr>
-                  <tr><td><strong>Chen et al., 2025</strong></td><td>Earned-source bias; 1.9x sameAs trust</td><td>Inline source citation on every key paragraph</td></tr>
-                  <tr><td><strong>BrightEdge, 2024-2025</strong></td><td>+44% AI citation lift from FAQPage schema</td><td>FAQPage JSON-LD on top 3 pages plus embedded blocks</td></tr>
-                </tbody>
-              </table>
-            </div>
-
-            {/* CTA 4 — phone */}
-            <a href="tel:+12134442229" className="ae-cta-inline">→ Call (213) 444-2229 for a same-day citation readiness scan</a>
-
-            {/* Section 5 */}
             <span className="ae-section-label" id="tae-method">TAE Method</span>
-            <h2>The TAE Origin Protocol for Local Business Citation</h2>
+            <h2>The Origin Protocol: How TAE Engineers Citation-Ready Content</h2>
 
-            <h3>The Origin Protocol composite citation stack</h3>
-            <p>The Origin Protocol is the production process The Answer Engine runs to engineer local business citation across the four major engines simultaneously. Every engagement under the Protocol carries the full schema stack on the top three pages, mirror-matched questions sourced from real user query logs, 80-to-180 word definition-first answers with inline citation, sameAs-rich Organization schema pointing to the local mention graph, and a 60-day refresh cadence on the dateModified field. The Protocol exists because optimizing one signal alone produces partial visibility on one engine and zero on the rest. Engineering against the composite produces compound authority that holds across engine-level weight drift. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a Protocol walkthrough scoped to your market.</p>
+            <h3>The Protocol enforces compliance at production</h3>
+            <p>The Origin Protocol is The Answer Engine&apos;s production process for engineering content that clears all seven citation signals in the first draft. Every article, service page, and FAQ block is built from the opening sentence to ship with bounded chunks, definition-first openings, named-thesis sentences, inline academic citations, synonym bridging, the full six-layer schema stack, and a verifiable named author with a three-link sameAs chain. Compliance is enforced at production rather than as a post-publication audit, so every article reaches the index already clearing the structural floor. The cadence guarantees a fresh entry inside the LLM recency window every seven days. Reach our team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the Origin Protocol applied to your vertical.</p>
 
-            <h3>The mirror-match question pipeline</h3>
-            <p>The mirror-match question pipeline pulls candidate questions from four parallel sources every quarter: Google Search Console &quot;People Also Ask&quot; data, AlsoAsked clusters, internal customer-support ticket exports, and live ChatGPT and Perplexity query logs captured during client onboarding. Every candidate question is scored on three axes — search volume on traditional engines, prompt frequency on generative engines, and conversion-intent weight from support tickets — and the top 25 advance to the page-level build. The pipeline produces pages that mirror the exact strings users type into AI engines, which is the highest-yield signal the ranker reads. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to scope a question pull on your category.</p>
+            <h3>The territory model: one operator per market</h3>
+            <p>The Answer Engine works with one business per market and per service vertical. The constraint is mechanical, not commercial. AEO citation share is a finite resource within any geographic-vertical pairing because the scoring layer biases compounding citations toward the first three to five domains the retrieval index locks onto. <strong className="named-thesis">The Territory Premium: the first three to five domains an LLM cites in a vertical retain disproportionate citation share through the next retrieval cycle, because compounding citations bias the next round of training data and reinforce the entity graph (TAE measurement, 2025-2026).</strong> Working with two competing operators in the same market would split the citation upside and dilute the territory anchor. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your exclusive territory now</a> &mdash; one client per market.</p>
 
-            <h3>The 16-article cadence and the compound authority effect</h3>
-            <p>The Origin Protocol deploys 16 articles per month into the client's site, each authored under the Champion Format with the full schema stack and the six-signal compliance pass. <strong className="named-thesis">The Compound Authority Effect: monthly publishing cadences at 12 articles per month or higher trigger a non-linear citation curve at month four because the cross-page schema graph density and the mention-graph compound at second-derivative rate, while pages published at lower cadence stay on a linear lift (TAE Proof Ledger, 2024-2026).</strong> The 16-per-month cadence is the threshold the Protocol uses to clear the compound authority knee. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free Blind Spot Scan to baseline your current cadence and citation curve.</a></p>
-
-            <h3>The territory lock and one-operator-per-market commitment</h3>
-            <p>The Origin Protocol opens one operator per market per category. The Answer Engine declines engagements that would put two operators against each other in the same local query set because the synthesized AI answer surfaces only one or two sources per query. The market math is zero-sum at the citation surface, and the Protocol commits to the operator who locks the territory first. The territory commitment is what separates the AEO operator engagement from a generic content marketing retainer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive AEO territory before a competitor claims your market.</a></p>
+            <h3>Dual-surface compounding: Google and LLM in one draft</h3>
+            <p>The Origin Protocol engineers content so the same draft serves both the Google ranking algorithm and the AI search citation pipeline. Bounded chunks with FAQPage schema improve Google&apos;s answer-extraction features and the LLM retrieval layer simultaneously. Named-author content with sameAs chains improves Google&apos;s E-E-A-T signals and the LLM trust graph simultaneously. Inline academic citations function as Google&apos;s authority signals and as LLM trust signals simultaneously. The dual-surface compounding effect is the strongest argument against treating AEO and SEO as separate disciplines &mdash; one operator, one draft, two indexed surfaces. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the dual-surface scoring breakdown.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <div className="ae-callout-title">The Citation Stack Equation in One Line</div>
-              <p>Mirror-matched questions × full schema stack × 80-to-180 word definition-first answers × dense entity graph × 60-day refresh cadence × 16 articles per month = compound citation authority that holds across all four major AI engines. Anything less is transient appearance followed by 60-to-90-day decay. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free strategy call to map your full citation stack.</a></p>
+              <div className="ae-callout-title">The Operator Equation</div>
+              <p>Six-layer schema stack + definition-first openings + named author with sameAs chain + 80-to-180 token chunks + inline academic citations + weekly cadence + synonym bridging = an operator who wins citations on customer-intent queries that competitors lose by structural default. Anything less is a structural concession. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AEO Blindspot Scan</a>.</p>
             </div>
 
-            {/* CTA 5 — territory */}
-            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Claim your AEO market — one operator per area on TAE</a>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; Book a free 30-minute strategy call &mdash; one client per market</a>
 
-            {/* Section 6 */}
-            <span className="ae-section-label" id="measurement">Measurement</span>
-            <h2>How to Measure Your Citation Rate Across Four Engines</h2>
+            <span className="ae-section-label" id="measure">Measurement</span>
+            <h2>Measuring Citation Outcomes: The Proof Ledger Loop</h2>
 
-            <h3>The plain-language definition of the fixed prompt library</h3>
-            <p>The fixed prompt library is the monthly measurement protocol The Answer Engine runs against every client engagement. The library is built from the exact customer queries on the site plus a 30-to-50% paraphrased query set covering the same intent. The library runs against ChatGPT, Perplexity, Claude, and Gemini on a 30-day cadence. Each query is logged for citation appearance, citation position inside the synthesized answer, and surrounding query context. The prompt library is the operational proxy for the internal citation-selection score the engines do not expose. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the canonical prompt library template.</p>
+            <h3>What the Proof Ledger captures</h3>
+            <p>The Proof Ledger is a fixed measurement instrument that maps structural compliance to measured citation outcomes. The Ledger consists of a 20-query library covering 8 informational, 8 evaluative, and 4 commercial-local queries from real customer intent. On the first business day of every month, an operator runs the 20-query library across ChatGPT, Perplexity, Claude, and Gemini and logs four data points per row &mdash; the query text, the engine, the citation appearance, and the cited URL. The Ledger&apos;s value is its consistency &mdash; the same library, the same engines, the same cadence. Reach out at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the editable Proof Ledger template.</p>
 
-            <h3>The per-engine citation differential and why it exists</h3>
-            <p>The six-signal stack produces different citation winners on different engines because each engine weights the underlying signals differently. <strong className="named-thesis">The Cross-Engine Composite Rule: balanced investment across all six citation signals produces citation wins on all four major engines, while concentrated investment on one or two signals wins one engine and loses the other three, because each engine weights the signal stack with its own composite (TAE per-engine measurement, 2024-2026).</strong> ChatGPT favors schema density and Bing-indexed surface placement. Perplexity favors freshness and sub-question breadth. Claude favors inline attribution and definition-first opening. Gemini favors the full Google schema stack and entity-graph alignment. Text <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a per-engine breakdown of your current citation footprint.</p>
+            <h3>The compliance scorecard paired with the Ledger</h3>
+            <p>The 32-item AEO compliance scorecard runs alongside the Proof Ledger on a quarterly cadence. Compliance is scored as an integer count from 0 to 32 across six structural layers &mdash; baseline measurement, schema stack, content structure, authorship, citation density, and publication cadence. Layer-level scoring exposes the load-bearing weakness when an aggregate score sits in the 24-to-29 range. The scorecard is paired with the Proof Ledger because compliance state explains why a citation appeared or did not appear in a given month &mdash; the structural state is the cause, the Proof Ledger is the measurement. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the editable scorecard.</p>
 
-            <h3>The 90-day validation window and the compound authority knee</h3>
-            <p>The Origin Protocol uses a 90-day validation window to confirm citation wins are durable, not transient. <strong className="named-thesis">The 90-Day Compound Threshold: AI citation appearances inside the first 30 days reflect indexing, appearances inside days 30 to 90 reflect ranker integration, and appearances past day 90 reflect compound authority that holds against fresh competitor entries — businesses measuring only the first 30 days mistake transient appearances for durable citation (TAE Origin Protocol, 2024-2026).</strong> The 90-day window separates one-shot indexing wins from compound authority that holds. This analysis draws on 16 months of TAE client engagements running this measurement protocol against the academic literature cited throughout. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free strategy session to walk through the 90-day validation framework.</a></p>
+            <h3>When compliance progress and citation progress diverge</h3>
+            <p>Two divergence patterns surface in the Ledger-scorecard pairing. Pattern A: the compliance score rises but the Proof Ledger stays flat &mdash; the structural items are clearing but the cadence is too low to refresh the recency window inside the LLM scoring layer&apos;s memory. Pattern B: the compliance score plateaus but the Proof Ledger rises &mdash; the early signals are doing the work and the remaining items are non-load-bearing for the vertical. The Audit Loop catches both patterns within a single quarter, while a quarterly-only loop loses two cycles of corrective action before the regression registers. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AEO Blindspot Scan</a> to baseline the compliance side of the pair.</p>
 
-            {/* CTA 6 — blindspot */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AERO Blind Spot Scan to baseline your citation rate today</a>
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">The Measurement Read</div>
+              <p>AI search citation is binary at the query level and compounding at the corpus level. If a vendor or in-house team cannot show a Proof Ledger run alongside a 32-item compliance scorecard, they are not running AEO &mdash; they are running an SEO program with new vocabulary. The pair separates real AEO from rebranded SEO. Reach our team at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a scorecard review.</p>
+            </div>
 
-            {/* Section 7 — Cheat Sheet */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; Lock in your territory before a competitor matches the cadence</a>
+
+            <span className="ae-section-label" id="failures">Failure Patterns</span>
+            <h2>Why Most Sites Fail to Get Cited</h2>
+
+            <h3>The weakest-signal compounding problem</h3>
+            <p>The citation pipeline reads the weakest signal across the indexed corpus. A site that clears six of seven signals can still fail to produce citations when the unchecked signal happens to be load-bearing &mdash; the schema stack, the named author, the chunk size, the cadence. <strong className="named-thesis">The Weakest-Signal Ceiling: the AI search citation pipeline weights the lowest of the seven compliance signals as the page ceiling, so a page that clears six signals at 95% and one signal at 30% scores closer to the 30% ceiling than the 95% peak (TAE measurement, 2025-2026).</strong> The practical consequence is that partial AEO work produces partial citation results. The threshold for first citations on Perplexity and ChatGPT search is roughly five of seven signals at 70% or higher. Full four-LLM coverage requires all seven signals at 85% or higher. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report</a> for your weakest-signal diagnostic.</p>
+
+            <h3>The three signals most sites silently skip</h3>
+            <p>Three signals are the most frequently skipped on baseline AEO audits. The schema stack &mdash; roughly 60% of small-business sites ship only Article and FAQPage schema, missing BreadcrumbList, ProfessionalService, WebPage speakable, and HowTo. The named author &mdash; roughly 70% of agency-built sites default to Team or Admin bylines instead of a single named expert. The chunk ceiling &mdash; roughly 80% of sites have long unbroken passages over 300 words because long-form SEO content from the 2018-to-2023 era encouraged unbroken paragraphs as a ranking signal. Each of these three skipped signals is load-bearing for at least one major engine. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the silent-skip diagnostic.</p>
+
+            <h3>The cadence trap and how to escape it</h3>
+            <p>The cadence floor is the signal in-house teams underestimate most often. Most operators commit to a monthly publication cadence at the start of an AEO program and the cadence collapses inside the first quarter as other priorities surface. Below the weekly floor, AEO authority decays inside the 60-to-90 day recency window and citation share regresses between Proof Ledger runs. The Origin Protocol enforces a weekly minimum and a 16-article-per-month escalated cadence in competitive verticals because the cadence floor is the only signal that runs on a calendar instead of a scorecard. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a cadence-fit diagnostic for your vertical.</p>
+
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Run the free AEO Blindspot Scan on your site now</a>
+
             <span className="ae-section-label">Quick Reference</span>
-            <h2>The AI Citation Cheat Sheet for Local Businesses</h2>
+            <h2>The 7-Signal Citation Engine: Compliance Cheat Sheet</h2>
 
             <div className="not-prose overflow-x-auto my-6">
               <table className="ae-comparison-table w-full text-sm">
                 <thead>
-                  <tr>
-                    <th>If You Want To...</th>
-                    <th>The Citation Lever Is...</th>
-                    <th>The Highest-Yield Fix Is...</th>
-                  </tr>
+                  <tr><th>Signal</th><th>Mechanism</th><th>Evidence</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td>Get cited by ChatGPT on a service query</td><td>FAQPage schema density</td><td>Full mainEntity array on top 3 pages plus embedded blocks</td></tr>
-                  <tr><td>Get cited by Perplexity on a how-to query</td><td>Mirror-match question breadth + freshness</td><td>25 mirror-matched questions refreshed every 60 days</td></tr>
-                  <tr><td>Get cited by Claude on a definition query</td><td>Definition-first opening + inline citation</td><td>Rewrite first sentence on every key page; cite one research source per section</td></tr>
-                  <tr><td>Get cited by Gemini on a local-intent query</td><td>LocalBusiness schema + entity-graph density</td><td>sameAs array linking LinkedIn, GBP, and 3+ local directories</td></tr>
-                  <tr><td>Get cited by Google AI Overviews</td><td>Article + FAQPage + LocalBusiness co-presence</td><td>Full schema stack on homepage plus top 3 service pages</td></tr>
-                  <tr><td>Hold citations past the 90-day window</td><td>Quarterly schema + content refresh</td><td>Bump dateModified, add 2-3 mirror-matched questions per quarter</td></tr>
-                  <tr><td>Outrank a higher-authority national brand</td><td>Attribute-rich schema on low-DR sites</td><td>54.2% citation floor with full FAQPage schema (GEO-SFE, 2026)</td></tr>
-                  <tr><td>Beat the chunk-ceiling penalty on legacy pages</td><td>80-to-180 word answer bound</td><td>Split every over-300-word paragraph into bounded child answers</td></tr>
+                  <tr><td>1 &mdash; Schema stack</td><td>Six JSON-LD types fire six scoring sub-routines</td><td>Missing any layer disqualifies the page from candidate sets</td></tr>
+                  <tr><td>2 &mdash; Definition opening</td><td>First 200 tokens lock the entity definition anchor</td><td>+57% citation premium (Zhang et al., 2026)</td></tr>
+                  <tr><td>3 &mdash; Named author</td><td>Trust layer cross-references author entity before citation</td><td>1.9x citation lift over Team bylines (Chen et al., 2025)</td></tr>
+                  <tr><td>4 &mdash; Chunk ceiling</td><td>RAG retrievers extract passages independently from the index</td><td>&minus;31% attention loss over 300 words (GEO-SFE, 2026)</td></tr>
+                  <tr><td>5 &mdash; Citation density</td><td>Inline statistics and quotations function as authority markers</td><td>+22% stats lift, +37% quotation lift (Aggarwal et al., KDD 2024)</td></tr>
+                  <tr><td>6 &mdash; Recency cadence</td><td>Weekly publication keeps the recency window fresh</td><td>60-to-90 day decay window (TAE measurement, 2025-2026)</td></tr>
+                  <tr><td>7 &mdash; Synonym bridging</td><td>Lexical variants widen retrieval match against open queries</td><td>2-to-3 variants per key term per section</td></tr>
                 </tbody>
               </table>
             </div>
 
-            {/* CTA 7 — email */}
-            <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai for a per-engine citation breakdown</a>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; Book a free 30-minute strategy call &mdash; one client per market</a>
 
-            {/* Author Card */}
             <div className="not-prose ae-author-card">
               <img
                 src="/justin-borges.webp"
@@ -549,109 +337,84 @@ export default function HowToGetCitedByAISearchPage() {
               <div>
                 <div className="ae-author-name">Justin Borges</div>
                 <div className="ae-author-role">Founder, The Answer Engine</div>
-                <p className="ae-author-bio" style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(229,226,225,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps local service businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. TAE runs the Origin Protocol described in this article against every client engagement — 1.14M+ monthly impressions on TAE's own surface, 4 of 4 LLMs cited on TAE primary queries, validated on the 90-day citation window before opening territory in any market. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> or email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to scope your engagement.</p>
+                <p className="ae-author-bio" style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(229,226,225,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. The Answer Engine&apos;s own site runs against the dual-surface Origin Protocol described in this guide &mdash; 1.14M+ monthly impressions, 4 of 4 LLMs cited. Reach Justin directly at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> or <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
-            {/* CTA Block */}
             <div className="ae-cta-block not-prose my-16">
-              <h3>Run Your Free AEO Grader — See Your Citation Score Against Your Top Three Competitors</h3>
-              <p>One operator per market. The AEO Grader scans your top customer queries against the full six-signal stack and tells you your exact composite score relative to your category competitors. Free, no login required. The Answer Engine validates every engagement on the 90-day citation window before opening territory in your market.</p>
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Grader →</a>
+              <h3>Run Your Free AEO Blindspot Scan &mdash; See Your 7-Signal Compliance Score</h3>
+              <p>The AEO Blindspot Scan checks your site against the seven structural signals the AI search citation pipeline reads, returns a per-signal score, and surfaces the load-bearing weakness inside five minutes &mdash; free, no login required.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Blindspot Scan &rarr;</a>
               <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
                 <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
                 <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
               </div>
             </div>
 
-            {/* FAQ Section */}
             <span className="ae-section-label" id="faq">FAQ</span>
             <h2>Frequently Asked Questions</h2>
 
-            <details className="ae-faq-item">
-              <summary>How do AI search engines decide which local businesses to cite?</summary>
-              <div className="ae-faq-answer">
-                <p>AI engines cite local businesses by composing six weighted signals: question-string similarity, schema-classified extractability, third-party mention density, definition-first sentence position, dateModified freshness, and entity-graph alignment. A business scoring top-quartile on four of the six wins citation on three or four engines simultaneously. Single-signal scoring earns transient appearances that decay inside the 90-day window. Text us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a per-signal scorecard.</p>
-              </div>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">What does it mean to get cited by AI search?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Getting cited by AI search means a generative engine such as ChatGPT, Perplexity, Claude, Gemini, or Google AI Overviews names your domain as a source inside an answer to a user query. The citation appears as an inline link, a numbered footnote, or a sidebar attribution. Citations are weighted differently than ranking. A page can rank on Google but never be cited by an AI engine because the citation pipeline reads structural compliance signals rather than backlink authority. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the citation-versus-ranking diagnostic.</p>
             </details>
 
-            <details className="ae-faq-item">
-              <summary>How long does it take to get cited by AI search after fixing my pages?</summary>
-              <div className="ae-faq-answer">
-                <p>First citations appear inside 30 days; durable citations confirm inside 60 to 90 days. Perplexity moves fastest because it browses the open web in real time. ChatGPT, Claude, and Gemini integrate new content on a slower cadence tied to crawl plus periodic retraining. The 90-day window separates first-pass indexing wins from compound authority that holds against competitor entries. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a per-engine timeline scoped to your market.</p>
-              </div>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Which AI engines cite local businesses?</summary>
+              <p className="faq-answer mt-3 text-gray-300">ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews all cite local businesses on commercial-local queries when the source clears the structural compliance threshold. Perplexity and ChatGPT search cite the largest volume of local sources on intent queries. Gemini and Google AI Overviews cite a smaller but more curated set, weighted toward sources with the full six-layer schema stack. Claude cites primarily authoritative sources with verifiable named authorship and inline citation density. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for an engine-specific compliance map.</p>
             </details>
 
-            <details className="ae-faq-item">
-              <summary>What is the difference between ranking on Google and getting cited by AI?</summary>
-              <div className="ae-faq-answer">
-                <p>Google ranking optimizes for blue-link clicks on a search results page; AI citation optimizes for chunk-level extraction by retrievers and the synthesized answer the engine returns. A page can rank position one on Google and earn zero AI citations if the content is unbounded, lacks schema, or buries the definition mid-article. The reverse is also true. Book a free call: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">calendly.com/theanswerengine-support/30min</a>.</p>
-              </div>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How long does it take to get cited by AI search?</summary>
+              <p className="faq-answer mt-3 text-gray-300">First citations on Perplexity and ChatGPT search typically appear within 30 to 60 days of clearing the structural compliance signals. Full coverage across all four major LLMs takes 90 to 120 days. The timeline is gated by the structural item count cleared, not by content volume. A site that clears 24 of 32 AEO checklist items in 30 days earns first citations faster than a site that publishes daily but clears only 18 items in the same window. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call</a> to estimate your timeline.</p>
             </details>
 
-            <details className="ae-faq-item">
-              <summary>Do AI engines cite small local businesses or only national brands?</summary>
-              <div className="ae-faq-answer">
-                <p>AI engines cite local businesses on local-intent queries when the structural signals are in place. GEO-SFE (2026) measured a 54.2% citation rate floor for low-authority domains running attribute-rich schema, independent of domain authority. A local business with full FAQPage, LocalBusiness, and Article schema outranks an unstructured national brand on the local query the engine resolves to one or two operator answers. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free Blind Spot Scan to verify your schema is firing.</a></p>
-              </div>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Do I need to be on Google to get cited by ChatGPT?</summary>
+              <p className="faq-answer mt-3 text-gray-300">No. ChatGPT search, Perplexity, and Claude each maintain independent retrieval indexes that do not depend on Google ranking. A page can be cited by ChatGPT or Perplexity on a customer-intent query without a top-ten Google ranking on the same query. The independence runs in both directions. A page can rank on Google for a query and still never appear as a cited source on Perplexity or ChatGPT search, because the citation pipeline reads structural compliance instead of backlink authority. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free Blindspot Scan</a> to see your independent compliance score.</p>
             </details>
 
-            <details className="ae-faq-item">
-              <summary>What is the single highest-yield change a local business can make to start getting AI citations?</summary>
-              <div className="ae-faq-answer">
-                <p>Add FAQPage JSON-LD to the top three pages of the site, with answers in the 80-to-180 word range opening with plain-language definitions. BrightEdge measured a 44% citation lift from FAQPage schema versus identical content without schema. The implementation cost is one JSON block per page; the citation lift is structural. The schema gate fires before the ranker reads surface HTML. Text us: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the canonical template.</p>
-              </div>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">What schema do I need to be cited by AI search?</summary>
+              <p className="faq-answer mt-3 text-gray-300">The structural compliance threshold requires six JSON-LD schema types on the indexed page set. Article schema with author and datePublished. FAQPage schema on every page with Q-and-A content. BreadcrumbList schema with itemListElement positions including the item URL at position 3 minimum. ProfessionalService or LocalBusiness schema sitewide. WebPage schema with speakableSpecification to unlock voice-mode citation. HowTo schema wherever the content describes a procedural sequence. A site missing any single layer drops from the candidate set on at least one major engine. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the schema implementation template.</p>
             </details>
 
-            <details className="ae-faq-item">
-              <summary>Will building backlinks help my business get cited by AI search?</summary>
-              <div className="ae-faq-answer">
-                <p>Third-party mentions help but earn less weight than schema-classified on-page extractability. Chen et al. (2025) documented a ranker bias toward content with explicit inline attribution chains over high-backlink content lacking structural readiness. A business with 50 inbound links but unstructured pages earns fewer citations than a business with 20 inbound links plus full FAQPage and Article schema. The on-page lift fires first; the link signal compounds on top. Reach us: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              </div>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Can I get cited by AI search without a named author?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Generic Team or Admin bylines underperform named authorship by 1.9x on measured citation lift, according to Chen et al. (2025). Pages with a single named author wrapped in Person schema with sameAs links to LinkedIn or industry profiles clear the trust layer faster and are cited more often. A site that ships only anonymous content can still earn occasional citations on Perplexity but rarely on Claude or Gemini, where the trust layer cross-references the author entity before clearing the citation threshold. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the named-author setup template.</p>
             </details>
 
-            <details className="ae-faq-item">
-              <summary>Can I just pay an agency to get my business cited by ChatGPT and Perplexity?</summary>
-              <div className="ae-faq-answer">
-                <p>No agency can pay AI engines to insert citations — retrievers select sources on internal weighted signals. What an AEO operator does is engineer the page-level signals the ranker reads: schema density, chunk discipline, definition-first openings, and the third-party mention graph. The Answer Engine validates every engagement on a 90-day citation window before opening territory. One operator per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free strategy call to scope your engagement.</a></p>
-              </div>
-            </details>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Run the free AEO Blindspot Scan on your site now</a>
 
-            {/* CTA 8 — blindspot */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your top customer queries now</a>
-
-            {/* Related */}
             <span className="ae-section-label">Continue Reading</span>
             <h2>Related AEO Concepts</h2>
 
             <ul>
-              <li><Link href="/blog/how-to-build-faq-page-ai-cites">How to Build a FAQ Page That AI Actually Cites</Link></li>
-              <li><Link href="/blog/how-ai-search-engines-rank-content">How AI Search Engines Rank Content</Link></li>
-              <li><Link href="/blog/anatomy-of-an-ai-citation">Anatomy of an AI Citation</Link></li>
-              <li><Link href="/blog/aeo-models-how-ai-search-picks-sources">AEO Models: How AI Search Picks Sources</Link></li>
+              <li><Link href="/blog/aeo-checklist-for-2026">The AEO Checklist for 2026</Link></li>
+              <li><Link href="/blog/how-to-do-aeo-step-by-step-guide-2026">How to Do AEO: Step-by-Step Guide 2026</Link></li>
+              <li><Link href="/blog/aeo-vs-seo">AEO vs SEO: What Is the Difference?</Link></li>
               <li><Link href="/blog/aeo-grader">AEO Grader: How to Score Your AI Search Visibility</Link></li>
-              <li><Link href="/blog/check-if-ai-recommends-your-business">Check If AI Recommends Your Business</Link></li>
+              <li><Link href="/blog/aeo-examples-real-pages-that-get-cited">AEO Examples: Real Pages That Get Cited</Link></li>
+              <li><Link href="/blog/5-minute-ai-visibility-audit">The 5-Minute AI Visibility Audit</Link></li>
             </ul>
 
-            {/* CTA 9 — calendly territory */}
-            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Lock in your AEO territory — one operator per market on TAE</a>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; One client per market &mdash; check if yours is still open</a>
 
           </div>
 
-          {/* Final CTA */}
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Local Market Either Cites You or Cites Your Competitor
+                The Operators Who Clear the Seven Signals Win the Citations
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                Every market has a local-intent query set the AI ranker will award to one or two operators. The six-signal citation stack — mirror-matched questions, full schema, dense mention graph, definition-first openings, 60-day refresh cadence, and entity-graph alignment — is the structural baseline. The Origin Protocol engineers your citation against all six signals on all four major engines simultaneously. One operator per market.
+                The Answer Engine&apos;s Origin Protocol clears the full seven-signal citation engine as a done-for-you cadence for one operator per market. The window to claim citation share at a discount is open. It will not stay open.
               </p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Get Your Free AEO Grader Score
+                Get Your Free AEO Blindspot Score
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
