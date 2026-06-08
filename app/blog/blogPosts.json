@@ -1,5 +1,32 @@
 [
   {
+    "id": 305,
+    "title": "Real Estate Agent Entity Recognition: How AI Builds Your Recommendation Profile",
+    "slug": "real-estate-agent-entity-recognition",
+    "excerpt": "AI cannot recommend a real estate agent it cannot recognize as a distinct entity. The five-layer recommendation profile — identity triplet, sameAs profile chain, co-citation graph, schema relationship edges, named authorship trail — is the composite entity record AI builds from scattered signals. The Origin Protocol engineers agent entities against the full stack on ChatGPT, Perplexity, Claude, and Gemini simultaneously.",
+    "category": "Realtor AEO",
+    "author": "Justin Borges",
+    "readTime": "17 min",
+    "image": "/blog/real-estate-agent-entity-recognition.svg",
+    "publishDate": "2026-06-08",
+    "lastModified": "2026-06-08",
+    "featured": false,
+    "tags": [
+      "Realtor AEO",
+      "Entity Recognition",
+      "Recommendation Profile",
+      "AI Knowledge Graph",
+      "Real Estate AEO",
+      "Person Schema",
+      "sameAs Chain",
+      "Entity Disambiguation",
+      "Named Entity Recognition",
+      "ChatGPT Realtor",
+      "Perplexity Realtor",
+      "Answer Engine Optimization"
+    ]
+  },
+  {
     "id": 303,
     "title": "What Makes AI Pick One Realtor Over Another When Three Have the Same GBP Score",
     "slug": "how-ai-picks-realtor-when-gbp-scores-tie",

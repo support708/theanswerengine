@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgER" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#131313;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glowER"><feGaussianBlur stdDeviation="6" result="blurER"/><feMerge><feMergeNode in="blurER"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowSoftER"><feGaussianBlur stdDeviation="14" result="blurERs"/><feMerge><feMergeNode in="blurERs"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgER)"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="252" x2="1200" y2="252" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="378" x2="1200" y2="378" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="504" x2="1200" y2="504" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+
+  <!-- LEFT: Title + Label -->
+  <g transform="translate(60, 80)">
+    <text x="0" y="0" font-family="Courier New, monospace" font-size="12" fill="#FF6A00" font-weight="700" letter-spacing="3">REALTOR AEO · ENTITY LAYER</text>
+    <text x="0" y="60" font-family="system-ui, sans-serif" font-size="44" fill="white" font-weight="900" letter-spacing="-1.5">REAL ESTATE AGENT</text>
+    <text x="0" y="105" font-family="system-ui, sans-serif" font-size="44" fill="white" font-weight="900" letter-spacing="-1.5">ENTITY RECOGNITION</text>
+    <text x="0" y="155" font-family="system-ui, sans-serif" font-size="22" fill="rgba(255,255,255,0.7)" font-weight="400">How AI Builds Your</text>
+    <text x="0" y="183" font-family="system-ui, sans-serif" font-size="22" fill="#FF6A00" font-weight="700">Recommendation Profile</text>
+
+    <line x1="0" y1="220" x2="80" y2="220" stroke="#FF6A00" stroke-width="3"/>
+
+    <text x="0" y="260" font-family="Courier New, monospace" font-size="11" fill="rgba(255,255,255,0.5)" letter-spacing="2">5-LAYER STACK · 4 MAJOR ENGINES</text>
+
+    <!-- Stat row -->
+    <g transform="translate(0, 290)">
+      <rect x="0" y="0" width="150" height="58" fill="rgba(255,106,0,0.08)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+      <text x="12" y="22" font-family="Courier New, monospace" font-size="9" fill="rgba(255,255,255,0.5)" letter-spacing="1">CITATION LIFT</text>
+      <text x="12" y="46" font-family="system-ui, sans-serif" font-size="22" fill="#FF6A00" font-weight="900">3.4×</text>
+
+      <rect x="165" y="0" width="150" height="58" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+      <text x="177" y="22" font-family="Courier New, monospace" font-size="9" fill="rgba(255,255,255,0.5)" letter-spacing="1">NAME COLLISION COST</text>
+      <text x="177" y="46" font-family="system-ui, sans-serif" font-size="22" fill="white" font-weight="900">-41%</text>
+    </g>
+
+    <text x="0" y="395" font-family="Courier New, monospace" font-size="10" fill="rgba(255,255,255,0.4)" letter-spacing="2">THEANSWERENGINE.AI</text>
+  </g>
+
+  <!-- RIGHT: Knowledge graph visualization -->
+  <g transform="translate(760, 110)">
+    <rect x="-20" y="-40" width="400" height="450" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="180" y="-15" font-family="Courier New, monospace" font-size="11" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="700" letter-spacing="2">AI KNOWLEDGE GRAPH</text>
+
+    <!-- Central AGENT node -->
+    <circle cx="180" cy="190" r="60" fill="url(#nodeGlow)" filter="url(#glowSoftER)"/>
+    <circle cx="180" cy="190" r="42" fill="#FF6A00" stroke="white" stroke-width="2" filter="url(#glowER)"/>
+    <text x="180" y="187" font-family="system-ui, sans-serif" font-size="11" fill="black" text-anchor="middle" font-weight="700">AGENT</text>
+    <text x="180" y="202" font-family="system-ui, sans-serif" font-size="9" fill="rgba(0,0,0,0.7)" text-anchor="middle" font-weight="600">ENTITY</text>
+
+    <!-- Edges to 5 layers -->
+    <line x1="180" y1="190" x2="60" y2="60" stroke="#FF6A00" stroke-width="1.5" opacity="0.7"/>
+    <line x1="180" y1="190" x2="300" y2="60" stroke="#FF6A00" stroke-width="1.5" opacity="0.7"/>
+    <line x1="180" y1="190" x2="30" y2="190" stroke="#FF6A00" stroke-width="1.5" opacity="0.7"/>
+    <line x1="180" y1="190" x2="330" y2="190" stroke="#FF6A00" stroke-width="1.5" opacity="0.7"/>
+    <line x1="180" y1="190" x2="60" y2="320" stroke="#FF6A00" stroke-width="1.5" opacity="0.7"/>
+    <line x1="180" y1="190" x2="300" y2="320" stroke="#FF6A00" stroke-width="1.5" opacity="0.7"/>
+
+    <!-- Layer nodes -->
+    <g>
+      <!-- Triplet -->
+      <circle cx="60" cy="60" r="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="60" y="58" font-family="system-ui, sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="700">NAME</text>
+      <text x="60" y="70" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">TRIPLET</text>
+
+      <!-- sameAs -->
+      <circle cx="300" cy="60" r="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="300" y="58" font-family="system-ui, sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="700">SAMEAS</text>
+      <text x="300" y="70" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">CHAIN</text>
+
+      <!-- Co-citation -->
+      <circle cx="30" cy="190" r="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="30" y="188" font-family="system-ui, sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="700">EARNED</text>
+      <text x="30" y="200" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">MEDIA</text>
+
+      <!-- Schema edges -->
+      <circle cx="330" cy="190" r="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="330" y="188" font-family="system-ui, sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="700">SCHEMA</text>
+      <text x="330" y="200" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">EDGES</text>
+
+      <!-- Authorship -->
+      <circle cx="60" cy="320" r="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="60" y="318" font-family="system-ui, sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="700">BYLINE</text>
+      <text x="60" y="330" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">TRAIL</text>
+
+      <!-- Brokerage (worksFor) -->
+      <circle cx="300" cy="320" r="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="300" y="318" font-family="system-ui, sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="700">WORKS</text>
+      <text x="300" y="330" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">FOR</text>
+    </g>
+
+    <!-- Bottom caption -->
+    <text x="180" y="385" font-family="Courier New, monospace" font-size="10" fill="rgba(255,106,0,0.7)" text-anchor="middle" letter-spacing="2">5-LAYER RECOMMENDATION PROFILE</text>
+  </g>
+
+  <!-- Bottom-right brand -->
+  <g transform="translate(1140, 595)">
+    <text x="0" y="0" font-family="Courier New, monospace" font-size="10" fill="rgba(255,255,255,0.3)" text-anchor="end" letter-spacing="2">THE ANSWER ENGINE</text>
+  </g>
+</svg>
