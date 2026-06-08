@@ -1,5 +1,32 @@
 [
   {
+    "id": 306,
+    "title": "How to Optimize Your Real Estate Website for AI Search in 2025",
+    "slug": "how-to-optimize-real-estate-website-ai-search-2025",
+    "excerpt": "A real estate website is invisible to ChatGPT, Perplexity, Claude, and Gemini until eight independent layers register on the retrieval indexes. The eight-layer stack — server-rendered crawl surface, schema entity graph, hyper-local bounded chunks, four-link sameAs chain, co-citation graph, biweekly market data freshness, named-author bylines, and FAQPage schema — is the multiplicative composite the AI ranker reads before any citation is scored. The Origin Protocol production pass for engineering a real estate website to register across all four major engines simultaneously.",
+    "category": "Realtor AEO",
+    "author": "Justin Borges",
+    "readTime": "18 min",
+    "image": "/blog/how-to-optimize-real-estate-website-ai-search-2025.svg",
+    "publishDate": "2026-06-08",
+    "lastModified": "2026-06-08",
+    "featured": false,
+    "tags": [
+      "Realtor AEO",
+      "Real Estate Website Optimization",
+      "Real Estate AEO",
+      "AI Search Optimization",
+      "Eight-Layer Stack",
+      "Schema Markup",
+      "RealEstateAgent Schema",
+      "ChatGPT Real Estate",
+      "Perplexity Real Estate",
+      "Google AI Overviews",
+      "LLM Citation",
+      "Answer Engine Optimization"
+    ]
+  },
+  {
     "id": 305,
     "title": "Real Estate Agent Entity Recognition: How AI Builds Your Recommendation Profile",
     "slug": "real-estate-agent-entity-recognition",
