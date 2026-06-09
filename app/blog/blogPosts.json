@@ -6666,5 +6666,31 @@
       "Origin Protocol",
       "Proof Ledger"
     ]
+  },
+  {
+    "id": 307,
+    "title": "What Is SUBSTRATE? The Content Framework Behind AI Citations",
+    "slug": "what-is-substrate-content-framework-ai-citations",
+    "excerpt": "SUBSTRATE is The Answer Engine nine-rule content framework for engineering pages that ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews cite. The mechanism behind each rule, the academic evidence, and the operator playbook for the AEO production pass.",
+    "category": "AEO Framework",
+    "author": "Justin Borges",
+    "readTime": "17 min",
+    "image": "/blog/what-is-substrate-content-framework-ai-citations.svg",
+    "publishDate": "2026-06-09",
+    "lastModified": "2026-06-09",
+    "featured": false,
+    "tags": [
+      "SUBSTRATE Framework",
+      "AEO Content Framework",
+      "Origin Protocol",
+      "Answer Engine Optimization",
+      "AI Citations",
+      "Named-Thesis Sentences",
+      "Bounded Chunks",
+      "Definition-First Openings",
+      "LLM Visibility",
+      "GEO",
+      "Generative Engine Optimization"
+    ]
   }
 ]
