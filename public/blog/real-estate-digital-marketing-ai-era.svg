@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#131313"/>
+      <stop offset="60%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0f0f10"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6A00"/>
+      <stop offset="100%" stop-color="#cc5500"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,106,0,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <rect x="0" y="0" width="8" height="630" fill="url(#orange)"/>
+
+  <text x="80" y="100" font-family="Courier New, monospace" font-size="16" fill="#FF6A00" letter-spacing="4">
+    AEO OPERATOR SERIES &#183; REAL ESTATE &#183; 2026
+  </text>
+
+  <text x="80" y="220" font-family="Inter, sans-serif" font-weight="900" font-size="76" fill="#ffffff" letter-spacing="-2">
+    REAL ESTATE
+  </text>
+  <text x="80" y="304" font-family="Inter, sans-serif" font-weight="900" font-size="76" fill="#ffffff" letter-spacing="-2">
+    MARKETING IN
+  </text>
+  <text x="80" y="388" font-family="Inter, sans-serif" font-weight="900" font-size="76" fill="#FF6A00" letter-spacing="-2">
+    THE AI ERA
+  </text>
+
+  <rect x="80" y="430" width="180" height="2" fill="#FF6A00"/>
+
+  <text x="80" y="475" font-family="Inter, sans-serif" font-size="22" fill="rgba(229,226,225,0.85)" font-weight="400">
+    What still works. What collapsed.
+  </text>
+  <text x="80" y="505" font-family="Inter, sans-serif" font-size="22" fill="rgba(229,226,225,0.85)" font-weight="400">
+    7 tactics that close. 6 that have died.
+  </text>
+
+  <text x="80" y="585" font-family="Courier New, monospace" font-size="14" fill="rgba(229,226,225,0.45)" letter-spacing="2">
+    THE ANSWER ENGINE &#183; THEANSWERENGINE.AI
+  </text>
+
+  <g transform="translate(940, 90)">
+    <rect x="0" y="0" width="180" height="180" fill="none" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+    <rect x="20" y="20" width="140" height="140" fill="none" stroke="rgba(255,106,0,0.5)" stroke-width="1"/>
+    <rect x="40" y="40" width="100" height="100" fill="none" stroke="#FF6A00" stroke-width="2"/>
+    <text x="90" y="105" font-family="Courier New, monospace" font-size="38" fill="#FF6A00" font-weight="900" text-anchor="middle">4-6x</text>
+    <text x="90" y="210" font-family="Courier New, monospace" font-size="11" fill="rgba(229,226,225,0.5)" letter-spacing="2" text-anchor="middle">AI vs PORTAL</text>
+    <text x="90" y="228" font-family="Courier New, monospace" font-size="11" fill="rgba(229,226,225,0.5)" letter-spacing="2" text-anchor="middle">CLOSE RATE</text>
+  </g>
+
+  <g transform="translate(940, 340)" font-family="Courier New, monospace" font-size="12" fill="rgba(229,226,225,0.6)">
+    <text x="0" y="0" fill="#FF6A00">WORKS:</text>
+    <text x="0" y="22">+ NAMED AUTHOR</text>
+    <text x="0" y="44">+ SCHEMA STACK</text>
+    <text x="0" y="66">+ 16-ARTICLE CADENCE</text>
+    <text x="0" y="98" fill="rgba(229,226,225,0.4)">COLLAPSED:</text>
+    <text x="0" y="120" fill="rgba(229,226,225,0.4)">- IDX-ONLY PAGES</text>
+    <text x="0" y="142" fill="rgba(229,226,225,0.4)">- ANON BROKERAGE</text>
+    <text x="0" y="164" fill="rgba(229,226,225,0.4)">- BROAD-MATCH ADS</text>
+  </g>
+
+</svg>
