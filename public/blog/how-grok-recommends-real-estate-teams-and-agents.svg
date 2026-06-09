@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrok" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#131313;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glowGrok"><feGaussianBlur stdDeviation="6" result="blurGrok"/><feMerge><feMergeNode in="blurGrok"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="nodeGlowGrok" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.85" />
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGrok)"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="252" x2="1200" y2="252" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="378" x2="1200" y2="378" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="504" x2="1200" y2="504" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+
+  <!-- LEFT: Title + Label -->
+  <g transform="translate(60, 80)">
+    <text x="0" y="0" font-family="Courier New, monospace" font-size="12" fill="#FF6A00" font-weight="700" letter-spacing="3">REAL ESTATE AEO · GROK SIX-SIGNAL STACK</text>
+    <text x="0" y="60" font-family="system-ui, sans-serif" font-size="42" fill="white" font-weight="900" letter-spacing="-1.5">HOW GROK RECOMMENDS</text>
+    <text x="0" y="103" font-family="system-ui, sans-serif" font-size="42" fill="white" font-weight="900" letter-spacing="-1.5">REAL ESTATE TEAMS</text>
+    <text x="0" y="146" font-family="system-ui, sans-serif" font-size="42" fill="#FF6A00" font-weight="900" letter-spacing="-1.5">AND AGENTS</text>
+
+    <text x="0" y="200" font-family="Inter, sans-serif" font-size="16" fill="rgba(229,226,225,0.6)" font-weight="400">Six signals. One verified X graph.</text>
+    <text x="0" y="222" font-family="Inter, sans-serif" font-size="16" fill="rgba(229,226,225,0.6)" font-weight="400">Bidirectional cross-post cadence.</text>
+
+    <!-- Stat row -->
+    <g transform="translate(0, 290)">
+      <text x="0" y="0" font-family="Courier New, monospace" font-size="11" fill="#FF6A00" font-weight="700" letter-spacing="2">CITATION LIFT</text>
+      <text x="0" y="40" font-family="system-ui, sans-serif" font-size="56" fill="white" font-weight="900" letter-spacing="-2">4.1x</text>
+
+      <text x="180" y="0" font-family="Courier New, monospace" font-size="11" fill="#FF6A00" font-weight="700" letter-spacing="2">FRESHNESS CEILING</text>
+      <text x="180" y="40" font-family="system-ui, sans-serif" font-size="56" fill="white" font-weight="900" letter-spacing="-2">30d</text>
+
+      <text x="380" y="0" font-family="Courier New, monospace" font-size="11" fill="#FF6A00" font-weight="700" letter-spacing="2">ANSWER LENGTH</text>
+      <text x="380" y="40" font-family="system-ui, sans-serif" font-size="56" fill="white" font-weight="900" letter-spacing="-2">2.3x</text>
+    </g>
+
+    <text x="0" y="430" font-family="Courier New, monospace" font-size="13" fill="rgba(229,226,225,0.45)" font-weight="700" letter-spacing="2">THEANSWERENGINE.AI</text>
+  </g>
+
+  <!-- RIGHT: Six-signal hex network -->
+  <g transform="translate(800, 315)">
+    <!-- Center hub -->
+    <circle cx="0" cy="0" r="72" fill="url(#nodeGlowGrok)" filter="url(#glowGrok)"/>
+    <circle cx="0" cy="0" r="38" fill="#131313" stroke="#FF6A00" stroke-width="2.5"/>
+    <text x="0" y="-3" font-family="Courier New, monospace" font-size="10" fill="#FF6A00" font-weight="700" text-anchor="middle">GROK</text>
+    <text x="0" y="11" font-family="Courier New, monospace" font-size="9" fill="rgba(229,226,225,0.8)" font-weight="700" text-anchor="middle">CITATION</text>
+
+    <!-- Six outer signal nodes -->
+    <!-- Top -->
+    <line x1="0" y1="0" x2="0" y2="-150" stroke="#FF6A00" stroke-width="1.5" opacity="0.45"/>
+    <circle cx="0" cy="-150" r="28" fill="#131313" stroke="#FF6A00" stroke-width="2"/>
+    <text x="0" y="-146" font-family="Courier New, monospace" font-size="8" fill="white" font-weight="700" text-anchor="middle">X VERIFIED</text>
+
+    <!-- Top right -->
+    <line x1="0" y1="0" x2="130" y2="-75" stroke="#FF6A00" stroke-width="1.5" opacity="0.45"/>
+    <circle cx="130" cy="-75" r="28" fill="#131313" stroke="#FF6A00" stroke-width="2"/>
+    <text x="130" y="-71" font-family="Courier New, monospace" font-size="8" fill="white" font-weight="700" text-anchor="middle">VELOCITY</text>
+
+    <!-- Bottom right -->
+    <line x1="0" y1="0" x2="130" y2="75" stroke="#FF6A00" stroke-width="1.5" opacity="0.45"/>
+    <circle cx="130" cy="75" r="28" fill="#131313" stroke="#FF6A00" stroke-width="2"/>
+    <text x="130" y="79" font-family="Courier New, monospace" font-size="8" fill="white" font-weight="700" text-anchor="middle">CO-CITE</text>
+
+    <!-- Bottom -->
+    <line x1="0" y1="0" x2="0" y2="150" stroke="#FF6A00" stroke-width="1.5" opacity="0.45"/>
+    <circle cx="0" cy="150" r="28" fill="#131313" stroke="#FF6A00" stroke-width="2"/>
+    <text x="0" y="154" font-family="Courier New, monospace" font-size="8" fill="white" font-weight="700" text-anchor="middle">FRESH 14d</text>
+
+    <!-- Bottom left -->
+    <line x1="0" y1="0" x2="-130" y2="75" stroke="#FF6A00" stroke-width="1.5" opacity="0.45"/>
+    <circle cx="-130" cy="75" r="28" fill="#131313" stroke="#FF6A00" stroke-width="2"/>
+    <text x="-130" y="79" font-family="Courier New, monospace" font-size="8" fill="white" font-weight="700" text-anchor="middle">sameAs X</text>
+
+    <!-- Top left -->
+    <line x1="0" y1="0" x2="-130" y2="-75" stroke="#FF6A00" stroke-width="1.5" opacity="0.45"/>
+    <circle cx="-130" cy="-75" r="28" fill="#131313" stroke="#FF6A00" stroke-width="2"/>
+    <text x="-130" y="-71" font-family="Courier New, monospace" font-size="8" fill="white" font-weight="700" text-anchor="middle">BYLINE</text>
+  </g>
+
+  <!-- Bottom-right brand -->
+  <g transform="translate(1140, 590)" text-anchor="end">
+    <text x="0" y="0" font-family="Courier New, monospace" font-size="11" fill="rgba(229,226,225,0.4)" font-weight="700" letter-spacing="2">THE ANSWER ENGINE · 2026</text>
+  </g>
+</svg>
