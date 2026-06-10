@@ -6887,5 +6887,22 @@
       "Google AI Overviews",
       "AEO vs SEO"
     ]
+  },
+  {
+    "id": 316,
+    "title": "How DeepSeek Recommends Local Real Estate Agents",
+    "slug": "how-deepseek-recommends-local-real-estate-agents",
+    "excerpt": "How DeepSeek selects the real estate agents it recommends on local intent queries — the retrieval pipeline, the named-author schema, the hyper-local bounded chunks, and the citation cadence DeepSeek weights above brand spend.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/how-deepseek-recommends-local-real-estate-agents.svg",
+    "publishDate": "2026-06-10",
+    "lastModified": "2026-06-10",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
   }
 ]
