@@ -6832,5 +6832,30 @@
       "Proof Ledger",
       "Generative Engine Optimization"
     ]
+  },
+  {
+    "id": 314,
+    "title": "How Claude AI Recommends Real Estate Agents Near You",
+    "slug": "how-claude-ai-recommends-real-estate-agents-near-you",
+    "excerpt": "How Claude AI selects the real estate agents it recommends on local intent queries — the entity graph, the named-author schema, the hyper-local bounded chunks, and the citation cadence Claude weights above brand spend.",
+    "category": "Realtor AEO",
+    "author": "Justin Borges",
+    "readTime": "17 min",
+    "image": "/blog/how-claude-ai-recommends-real-estate-agents-near-you.svg",
+    "publishDate": "2026-06-10",
+    "lastModified": "2026-06-10",
+    "featured": false,
+    "tags": [
+      "Realtor AEO",
+      "Claude AI",
+      "Real Estate Agent AEO",
+      "AI Search for Realtors",
+      "Claude Citation",
+      "RealEstateAgent Schema",
+      "Named-Author Schema",
+      "Origin Protocol",
+      "AEO",
+      "Answer Engine Optimization"
+    ]
   }
 ]
