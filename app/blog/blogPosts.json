@@ -6805,5 +6805,32 @@
       "LLM Citation",
       "Answer Engine Optimization"
     ]
+  },
+  {
+    "id": 313,
+    "title": "How to Optimize Content for ChatGPT",
+    "slug": "how-to-optimize-content-for-chatgpt",
+    "excerpt": "The structural method for optimizing content so ChatGPT cites it on customer-intent queries. Six structural disciplines grounded in peer-reviewed AEO research and TAE production measurement.",
+    "category": "ChatGPT Optimization",
+    "author": "Justin Borges",
+    "readTime": "16 min",
+    "image": "/blog/how-to-optimize-content-for-chatgpt.svg",
+    "publishDate": "2026-06-09",
+    "lastModified": "2026-06-09",
+    "featured": false,
+    "tags": [
+      "ChatGPT Optimization",
+      "ChatGPT Content Optimization",
+      "Answer Engine Optimization",
+      "AEO Strategy",
+      "LLM Citation",
+      "Retrieval Embedding",
+      "Definition Premium",
+      "Chunk Ceiling",
+      "Named-Author Schema",
+      "Origin Protocol",
+      "Proof Ledger",
+      "Generative Engine Optimization"
+    ]
   }
 ]
