@@ -6857,5 +6857,35 @@
       "AEO",
       "Answer Engine Optimization"
     ]
+  },
+  {
+    "id": 315,
+    "title": "AEO Best Practices 2026: The 8-Practice Field Guide",
+    "slug": "aeo-best-practices-2026",
+    "excerpt": "The 8 answer engine optimization best practices that drive AI citations in 2026 — tied directly to RAG retrieval mechanics inside ChatGPT, Perplexity, Claude, and Google AI Overviews. Definition Premium, Chunk Ceiling, Three-Signal Test, Compound Authority Principle, and 90-Day Lag Floor explained with implementation order and AERO composite scoring.",
+    "category": "AEO Strategy",
+    "author": "Justin Borges",
+    "readTime": "14 min",
+    "image": "/blog/aeo-best-practices-2026.svg",
+    "publishDate": "2026-06-10",
+    "lastModified": "2026-06-10",
+    "featured": false,
+    "tags": [
+      "AEO Best Practices 2026",
+      "Answer Engine Optimization",
+      "AI Citation",
+      "AEO Strategy",
+      "RAG Retrieval",
+      "Bounded Chunk Architecture",
+      "FAQPage Schema",
+      "Entity Co-Citation",
+      "Definition Premium",
+      "Origin Protocol",
+      "Compound Authority",
+      "ChatGPT Citation",
+      "Perplexity Citation",
+      "Google AI Overviews",
+      "AEO vs SEO"
+    ]
   }
 ]
