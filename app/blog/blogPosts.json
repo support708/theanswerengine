@@ -6778,5 +6778,32 @@
       "Real Estate Schema Markup",
       "Answer Engine Optimization"
     ]
+  },
+  {
+    "id": 312,
+    "title": "How Do Mortgage Brokers Get Found on ChatGPT and AI Search?",
+    "slug": "how-do-mortgage-brokers-get-found-on-chatgpt-and-ai-search",
+    "excerpt": "Mortgage brokers get found on ChatGPT and AI search by registering on a seven-signal AEO composite — verified NMLS license binding, regulated-finance sameAs chain, weekly rate freshness, borrower-scenario bounded chunks, inline regulatory disclosures, named loan officer bylines, and an FAQ schema layer. Mortgage AEO is structurally different from general local service AEO because ChatGPT, Perplexity, Claude, and Gemini apply an elevated source-verification filter to regulated lending. The Origin Protocol production pass for engineering a brokerage to register across all four major engines simultaneously.",
+    "category": "Mortgage AEO",
+    "author": "Justin Borges",
+    "readTime": "18 min",
+    "image": "/blog/how-do-mortgage-brokers-get-found-on-chatgpt-and-ai-search.svg",
+    "publishDate": "2026-06-09",
+    "lastModified": "2026-06-09",
+    "featured": false,
+    "tags": [
+      "Mortgage AEO",
+      "Mortgage Broker AI Search",
+      "NMLS Schema",
+      "Regulated Finance AEO",
+      "ChatGPT Mortgage",
+      "Perplexity Mortgage",
+      "Claude Mortgage",
+      "Gemini Mortgage",
+      "Seven-Signal Stack",
+      "Loan Officer Schema",
+      "LLM Citation",
+      "Answer Engine Optimization"
+    ]
   }
 ]
