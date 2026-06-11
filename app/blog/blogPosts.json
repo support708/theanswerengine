@@ -1,5 +1,32 @@
 [
   {
+    "id": 307,
+    "title": "How Amazon Alexa+ Finds and Recommends Real Estate Agents",
+    "slug": "how-amazon-alexa-plus-finds-and-recommends-real-estate-agents",
+    "excerpt": "Alexa+ runs Claude on Amazon Bedrock, queries Realtor.com, Yelp, Zillow Premier Agent, and Square or Calendly, and names a single real estate agent inside a 16-second voice exchange. The recommendation mechanism behind the named-agent voice response — the partner stack, the typed-parameter reasoning layer, the 7-signal agent surfacing score, and the operator playbook agents run to engineer Alexa+ pass-through before competitors lock the metro slot.",
+    "category": "Voice AI",
+    "author": "Justin Borges",
+    "readTime": "14 min",
+    "image": "/blog/how-amazon-alexa-plus-finds-and-recommends-real-estate-agents.svg",
+    "publishDate": "2026-06-11",
+    "lastModified": "2026-06-11",
+    "featured": false,
+    "tags": [
+      "Voice AI",
+      "Alexa Plus",
+      "Realtor AEO",
+      "Real Estate AEO",
+      "Amazon Alexa Plus Real Estate",
+      "Realtor.com Optimization",
+      "Yelp for Realtors",
+      "Zillow Premier Agent",
+      "Voice Search for Real Estate Agents",
+      "Claude AI",
+      "Partner-Stack Premium",
+      "Answer Engine Optimization"
+    ]
+  },
+  {
     "id": 306,
     "title": "How to Optimize Your Real Estate Website for AI Search in 2025",
     "slug": "how-to-optimize-real-estate-website-ai-search-2025",
