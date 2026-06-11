@@ -6961,5 +6961,30 @@
       "Gemini Citations",
       "Google AI Overviews"
     ]
+  },
+  {
+    "id": 318,
+    "title": "How to Measure AEO Performance",
+    "slug": "how-to-measure-aeo-performance",
+    "excerpt": "Eleven metrics that prove Answer Engine Optimization is working — Citation Share, AERO Composite, Retrieval Depth, Citation Velocity, and the six component scores that ladder into them. The Origin Protocol measurement stack.",
+    "category": "AEO Measurement",
+    "author": "Justin Borges",
+    "readTime": "15 min",
+    "image": "/blog/how-to-measure-aeo-performance.svg",
+    "publishDate": "2026-06-11",
+    "lastModified": "2026-06-11",
+    "featured": false,
+    "tags": [
+      "AEO Measurement",
+      "AEO Performance Metrics",
+      "Citation Share",
+      "AERO Score",
+      "Retrieval Depth",
+      "Citation Velocity",
+      "AI Citation Tracking",
+      "Answer Engine Optimization",
+      "LLM Visibility Measurement",
+      "GEO Performance"
+    ]
   }
 ]
