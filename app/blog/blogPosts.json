@@ -6904,5 +6904,35 @@
       "AEO",
       "AI Search"
     ]
+  },
+  {
+    "id": 317,
+    "title": "Free AEO Audit Tools 2026",
+    "slug": "free-aeo-audit-tools-2026",
+    "excerpt": "A practitioner ranking of the free AEO audit tools that actually measure AI citation visibility across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews — schema validators, chunk-density auditors, and prompt-library runners with zero recurring license cost.",
+    "category": "AEO Strategy",
+    "author": "Justin Borges",
+    "readTime": "12 min",
+    "image": "/blog/free-aeo-audit-tools-2026.jpg",
+    "publishDate": "2026-06-10",
+    "lastModified": "2026-06-10",
+    "featured": false,
+    "tags": [
+      "Free AEO Audit",
+      "AEO Tools",
+      "AEO Strategy",
+      "Schema Validator",
+      "Chunk Density",
+      "Proof Ledger",
+      "AI Citation Audit",
+      "LLM Visibility",
+      "Free Tools",
+      "AEO Blindspot Scan",
+      "ChatGPT Citations",
+      "Perplexity Citations",
+      "Claude Citations",
+      "Gemini Citations",
+      "Google AI Overviews"
+    ]
   }
 ]
