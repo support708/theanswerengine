@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgVSR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#131313;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#0f0f10;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a0d05;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="orangeGradVSR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F27D24;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#cc5500;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="glowVSR"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="gridVSR" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(242,125,36,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgVSR)"/>
+  <rect width="1200" height="630" fill="url(#gridVSR)"/>
+
+  <!-- Voice waveform bars on left - representing the spoken query -->
+  <g opacity="0.9" filter="url(#glowVSR)">
+    <rect x="120" y="280" width="10" height="70" rx="5" fill="#F27D24" opacity="0.5"/>
+    <rect x="140" y="250" width="10" height="130" rx="5" fill="#F27D24" opacity="0.7"/>
+    <rect x="160" y="210" width="10" height="210" rx="5" fill="#F27D24"/>
+    <rect x="180" y="240" width="10" height="150" rx="5" fill="#F27D24" opacity="0.8"/>
+    <rect x="200" y="275" width="10" height="80" rx="5" fill="#F27D24" opacity="0.55"/>
+    <rect x="220" y="255" width="10" height="120" rx="5" fill="#F27D24" opacity="0.7"/>
+    <rect x="240" y="290" width="10" height="50" rx="5" fill="#F27D24" opacity="0.45"/>
+  </g>
+
+  <!-- Spoken query bubble -->
+  <g opacity="0.85">
+    <rect x="115" y="150" width="320" height="40" rx="20" fill="rgba(242,125,36,0.10)" stroke="#F27D24" stroke-width="1.5"/>
+    <text x="135" y="176" font-family="Courier New, monospace" font-size="14" fill="#F27D24">"find me a Realtor near me who..."</text>
+  </g>
+
+  <!-- Connection lines voice -> single named agent -->
+  <g opacity="0.35">
+    <line x1="300" y1="315" x2="780" y2="250" stroke="#F27D24" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="300" y1="315" x2="900" y2="315" stroke="#F27D24" stroke-width="2.5"/>
+    <line x1="300" y1="315" x2="780" y2="400" stroke="#F27D24" stroke-width="1" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Agent pool on right; one highlighted as the named answer -->
+  <g opacity="0.85" filter="url(#glowVSR)">
+    <!-- Candidate agent (dimmed) -->
+    <g transform="translate(760,200)">
+      <polygon points="0,30 40,0 80,30 80,75 0,75" fill="none" stroke="#F27D24" stroke-width="2" opacity="0.4"/>
+    </g>
+    <!-- Candidate agent (dimmed) -->
+    <g transform="translate(760,380)">
+      <polygon points="0,30 40,0 80,30 80,75 0,75" fill="none" stroke="#F27D24" stroke-width="2" opacity="0.4"/>
+    </g>
+    <!-- The named agent (highlighted) -->
+    <g transform="translate(890,255)">
+      <polygon points="0,40 55,0 110,40 110,100 0,100" fill="rgba(242,125,36,0.15)" stroke="#F27D24" stroke-width="3"/>
+      <rect x="42" y="65" width="26" height="35" fill="#F27D24"/>
+      <circle cx="55" cy="-15" r="9" fill="#F27D24"/>
+      <text x="55" y="-10" font-family="Courier New, monospace" font-size="12" fill="#131313" text-anchor="middle" font-weight="900">&#9733;</text>
+    </g>
+    <!-- Candidate agent (dimmed) -->
+    <g transform="translate(1060,200)">
+      <polygon points="0,30 40,0 80,30 80,75 0,75" fill="none" stroke="#F27D24" stroke-width="2" opacity="0.35"/>
+    </g>
+    <!-- Candidate agent (dimmed) -->
+    <g transform="translate(1060,380)">
+      <polygon points="0,30 40,0 80,30 80,75 0,75" fill="none" stroke="#F27D24" stroke-width="2" opacity="0.35"/>
+    </g>
+  </g>
+
+  <!-- Terminal label top-left -->
+  <g font-family="Courier New, monospace" font-size="14" fill="#F27D24" opacity="0.7">
+    <text x="60" y="80">&gt; voice_search/aeo :: spoken_query_to_named_agent</text>
+  </g>
+
+  <!-- Main title -->
+  <g font-family="Space Grotesk, Helvetica, sans-serif" font-weight="900" fill="#e5e2e1">
+    <text x="60" y="540" font-size="50" letter-spacing="-2">VOICE SEARCH &amp; REAL ESTATE</text>
+    <text x="60" y="595" font-size="50" letter-spacing="-2" fill="#F27D24">ASKING AI FOR AN AGENT</text>
+  </g>
+
+  <!-- Bottom badge -->
+  <g font-family="Courier New, monospace" font-size="11" fill="rgba(229,226,225,0.55)">
+    <text x="1140" y="600" text-anchor="end">THEANSWERENGINE.AI</text>
+  </g>
+
+  <!-- Assistant labels -->
+  <g font-family="Courier New, monospace" font-size="10" fill="#F27D24" opacity="0.8">
+    <text x="770" y="185">SIRI</text>
+    <text x="1140" y="185" text-anchor="end">ALEXA+</text>
+    <text x="770" y="490">GEMINI</text>
+    <text x="1140" y="490" text-anchor="end">CHATGPT VOICE</text>
+  </g>
+
+</svg>

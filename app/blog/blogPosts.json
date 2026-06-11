@@ -1,5 +1,32 @@
 [
   {
+    "id": 308,
+    "title": "Voice Search and Real Estate: How Buyers Ask AI for Agent Recommendations",
+    "slug": "voice-search-real-estate-agent-recommendations",
+    "excerpt": "Buyers no longer type \"realtor near me\" — they speak full, constraint-laden sentences to ChatGPT, Siri, Alexa+, and Gemini, and the assistant names one agent. Voice search collapses the realtor funnel into a single spoken answer. How buyers phrase those requests, how voice AI parses a spoken sentence into typed constraints and binds it to one named agent, the five-move Voice AEO Playbook that engineers pass-through across every assistant, and the Proof Ledger that makes an invisible voice channel countable.",
+    "category": "Voice AI",
+    "author": "Justin Borges",
+    "readTime": "14 min",
+    "image": "/blog/voice-search-real-estate-agent-recommendations.svg",
+    "publishDate": "2026-06-11",
+    "lastModified": "2026-06-11",
+    "featured": false,
+    "tags": [
+      "Voice AI",
+      "Voice Search",
+      "Voice Search for Real Estate Agents",
+      "Real Estate AEO",
+      "Realtor AEO",
+      "How Buyers Ask AI for Agent Recommendations",
+      "ChatGPT Voice",
+      "Siri Apple Intelligence",
+      "Amazon Alexa Plus",
+      "Google Gemini",
+      "Conversational Search",
+      "Answer Engine Optimization"
+    ]
+  },
+  {
     "id": 307,
     "title": "How Amazon Alexa+ Finds and Recommends Real Estate Agents",
     "slug": "how-amazon-alexa-plus-finds-and-recommends-real-estate-agents",
