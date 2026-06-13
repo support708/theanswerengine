@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#131313;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#0f0f10;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a0d05;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="orangeGC" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F27D24;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#cc5500;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="glowGC"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="gridGC" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(242,125,36,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGC)"/>
+  <rect width="1200" height="630" fill="url(#gridGC)"/>
+
+  <!-- Buyer query bubble -->
+  <g opacity="0.9">
+    <rect x="110" y="150" width="470" height="46" rx="23" fill="rgba(242,125,36,0.10)" stroke="#F27D24" stroke-width="1.5"/>
+    <text x="132" y="179" font-family="Courier New, monospace" font-size="16" fill="#F27D24">"who is the best [business] near me..."</text>
+  </g>
+
+  <!-- ChatGPT prompt cursor block (left) -->
+  <g filter="url(#glowGC)" opacity="0.95">
+    <rect x="170" y="300" width="220" height="150" rx="10" fill="none" stroke="#F27D24" stroke-width="3"/>
+    <line x1="200" y1="345" x2="340" y2="345" stroke="#F27D24" stroke-width="3"/>
+    <line x1="200" y1="380" x2="360" y2="380" stroke="#F27D24" stroke-width="3"/>
+    <line x1="200" y1="415" x2="300" y2="415" stroke="#F27D24" stroke-width="3"/>
+    <rect x="310" y="404" width="14" height="22" fill="#F27D24"/>
+  </g>
+  <!-- CITED tag -->
+  <g opacity="0.95">
+    <rect x="320" y="285" width="120" height="40" rx="4" fill="url(#orangeGC)"/>
+    <text x="380" y="312" font-family="Space Grotesk, Arial, sans-serif" font-size="20" font-weight="900" fill="#131313" text-anchor="middle" letter-spacing="2">CITED</text>
+  </g>
+
+  <!-- Connection lines query/prompt -> single named business node -->
+  <g opacity="0.35">
+    <line x1="400" y1="375" x2="800" y2="320" stroke="#F27D24" stroke-width="1.5" stroke-dasharray="5,5"/>
+    <line x1="580" y1="173" x2="800" y2="300" stroke="#F27D24" stroke-width="1.5" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- Single named business node (right, highlighted) -->
+  <g filter="url(#glowGC)">
+    <circle cx="860" cy="315" r="62" fill="rgba(242,125,36,0.12)" stroke="#F27D24" stroke-width="3"/>
+    <path d="M 860 282 L 884 300 L 875 330 L 845 330 L 836 300 Z" fill="none" stroke="#F27D24" stroke-width="3"/>
+    <circle cx="860" cy="312" r="9" fill="#F27D24"/>
+  </g>
+  <g opacity="0.9">
+    <rect x="800" y="392" width="120" height="30" rx="4" fill="url(#orangeGC)"/>
+    <text x="860" y="413" font-family="Space Grotesk, Arial, sans-serif" font-size="15" font-weight="900" fill="#131313" text-anchor="middle" letter-spacing="1">NAMED 1×</text>
+  </g>
+
+  <!-- Faded competing nodes (not chosen) -->
+  <g opacity="0.18">
+    <circle cx="1000" cy="200" r="34" fill="none" stroke="#e5e2e1" stroke-width="2"/>
+    <circle cx="1050" cy="320" r="34" fill="none" stroke="#e5e2e1" stroke-width="2"/>
+    <circle cx="1000" cy="440" r="34" fill="none" stroke="#e5e2e1" stroke-width="2"/>
+  </g>
+
+  <!-- Engine labels row -->
+  <g opacity="0.8" font-family="Courier New, monospace" font-size="15" fill="rgba(229,226,225,0.55)">
+    <text x="110" y="560">ChatGPT</text>
+    <text x="240" y="560">Perplexity</text>
+    <text x="390" y="560">Claude</text>
+    <text x="500" y="560">Gemini</text>
+    <text x="620" y="560">AI Overviews</text>
+  </g>
+
+  <!-- Title block -->
+  <text x="110" y="80" font-family="Space Grotesk, Arial, sans-serif" font-size="13" font-weight="700" fill="#F27D24" letter-spacing="3">THE ANSWER ENGINE · HOW TO GET CITED BY CHATGPT 2026</text>
+</svg>
