@@ -1,5 +1,30 @@
 [
   {
+    "id": 321,
+    "title": "How to Rank in Microsoft Copilot Search",
+    "slug": "how-to-rank-in-microsoft-copilot-search",
+    "excerpt": "Microsoft Copilot Search retrieves its cited sources from the Bing index and composes each answer from three to five numbered footnotes. Ranking in Copilot is two jobs: earn a place in the Bing index, then structure each passage so the answer layer can extract a self-contained quote. Because Copilot and ChatGPT Search read the same Bing index, one correctly engineered page becomes a citation candidate on both engines at once. The full mechanism, the academic evidence, the IndexNow and freshness signals that move citations, and the Copilot Proof Ledger that makes the channel countable.",
+    "category": "Platform Deep Dives",
+    "author": "Justin Borges",
+    "readTime": "15 min",
+    "image": "/blog/how-to-rank-in-microsoft-copilot-search.webp",
+    "publishDate": "2026-06-15",
+    "lastModified": "2026-06-15",
+    "featured": false,
+    "tags": [
+      "Platform Deep Dives",
+      "Microsoft Copilot Search",
+      "Rank in Copilot",
+      "Bing Index AEO",
+      "Copilot Citations",
+      "IndexNow",
+      "ChatGPT Search Bing",
+      "Get Cited by Copilot",
+      "Copilot Optimization",
+      "Answer Engine Optimization"
+    ]
+  },
+  {
     "id": 308,
     "title": "Voice Search and Real Estate: How Buyers Ask AI for Agent Recommendations",
     "slug": "voice-search-real-estate-agent-recommendations",
